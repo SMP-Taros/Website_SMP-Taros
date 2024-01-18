@@ -89,7 +89,7 @@
 
   .sambutan-container {
     width: 1059px;
-    height: 476px;
+    height: 526px;
     flex-shrink: 0;
     margin: 20px auto;
     padding: 20px;
@@ -101,7 +101,18 @@
    height: 100%;
   }
 
+  .sambutan-text h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+  }
+
+  .sambutan-text p {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+
   .sambutan-container img {
-    width: 100%;
-    height: 100%;
+    width: 398px;
+    height: 476px;
+    flex-shrink: 0;
   }

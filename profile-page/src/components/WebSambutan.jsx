@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "../image/taros.jpeg";
 
 function WebSambutan() {
     return (
@@ -7,7 +8,7 @@ function WebSambutan() {
                 <h1>SAMBUTAN KEPALA SEKOLAH</h1>
                 <p>Assalamualaikum Warahmatullahi Wabarakatuh</p>
             </div>
-            <img src="metz.jpg" />
+            <img src={Image} />
         </div>
     )
 }

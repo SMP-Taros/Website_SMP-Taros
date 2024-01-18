@@ -1,6 +1,9 @@
 # React Profile-Page progress
 
-navbar -
-header -
-component -
-style - 
+navbar (belum)
+banner (belum)
+kepsek (belum)
+visi (udah)
+kompetensi (udah)
+sambutan (belum)
+footer (belum)

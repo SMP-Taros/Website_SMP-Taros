@@ -1,0 +1,60 @@
+/* .kompetensi-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.kompetensi-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.kompetensi-listItem {
+    margin-bottom: 10px;
+    font-size: 18px;
+} */
+
+.profile-page {
+    /* width: 1440px;
+    height: 3488px;
+    background: #FFF; */
+}
+
+.kompetensi-container {
+    width: 934px;
+    height: 3px;
+    flex-shrink: 0;
+    margin: 20px auto; /* Centers the container */
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .kompetensi-header {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .kompetensi-list {
+    margin-top: 5%;
+    list-style: none; /* Removes default list styling */
+    padding: 10;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    grid-gap: 0.5rem;
+
+  }
+  
+  .kompetensi-list li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 0px; /* Adjust space for custom bullet */
+  }

@@ -9,8 +9,10 @@ import IYoutube from "../image/youtube.png";
 
 function WebFooter() {
     return (
-        <div className="">
-            
+        <div className="footer-container">
+            <div className="">
+                
+            </div>
         </div>
     )
 }

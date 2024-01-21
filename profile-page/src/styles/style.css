@@ -1,22 +1,3 @@
-/* .kompetensi-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.kompetensi-header {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.kompetensi-listItem {
-    margin-bottom: 10px;
-    font-size: 18px;
-} */
-
 .profile-page {
     /* width: 1440px;
     height: 3488px;
@@ -29,7 +10,7 @@
     flex-shrink: 0;
     margin: 20px auto; /* Centers the container */
     padding: 20px;
-    
+    margin-bottom: 70px;
   }
   
   .kompetensi-header {
@@ -46,7 +27,6 @@
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(2, 1fr);
     grid-gap: 0.5rem;
-
   }
   
   .kompetensi-list li {
@@ -118,7 +98,6 @@
   }
 
   .banner-container {
-    /* background-image: url('../image/banner.jpeg'); */
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(139, 139, 139, 0.5) 100%), url('../image/banner.jpeg'), lightgray 50% / cover no-repeat;
     background-size: cover;
     background-position: center;
@@ -128,14 +107,94 @@
     height: 260px;
   }
 
-  .banner-warna {
-   
-  }
-
   .banner-warna h1 {
     font-family: "Roboto", sans-serif;
     font-size: 44px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+
+  .footer-background {
+    background-color: #4b4b4b;
+  }
+
+  .footer-container {
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 250px;
+    margin: auto;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .footer-container .footer-kiri {
+    margin-top: 50px;
+  }
+
+  .footer-container .footer-kanan {
+    margin-left: 300px;
+  }
+
+  .footer-kanan .contact {
+    margin-left: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .footer-header {
+    display: flex;
+  }
+
+  .footer-container .footer-maps {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .footer-container .footer-telp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .footer-container .footer-email {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-container .footer-instagram {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-container .footer-facebook {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-container .footer-twitter {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .footer-container .footer-youtube {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .footer-container .icon {
+    margin-right: 10px;
+    fill: #fff
+  }
+
+  .footer-container .footer-kanan-sosmed {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    width: auto;
   }

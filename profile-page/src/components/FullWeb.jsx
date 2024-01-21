@@ -3,6 +3,7 @@ import WebKompetensi from './WebKompetensi';
 import WebVisi from './WebVisi';
 import WebSambutan from "./WebSambutan";
 import WebBanner from "./WebBanner";
+import WebFooter from "./WebFooter";
 
 function FullWeb() {
     return (
@@ -11,6 +12,7 @@ function FullWeb() {
             <WebSambutan></WebSambutan>
             <WebVisi></WebVisi>
             <WebKompetensi></WebKompetensi>
+            <WebFooter></WebFooter>
         </div>
     )
 }

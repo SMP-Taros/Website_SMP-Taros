@@ -12,7 +12,7 @@ import PpdbPage from "./pages/PpdbPage";
 import FaqPage from "./pages/FaqPage";
 import ContactPage from "./pages/ContactPage";
 
-
+ 
 
 function App() { // Route path adalah konfigurasi untuk ke masing2 halaman
   return (<div>

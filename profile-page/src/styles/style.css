@@ -198,3 +198,72 @@
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     width: auto;
   }
+
+  .header-container {
+    background-color: #F7DA24;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-container .header-isi {
+    width: 1275px;    
+    height: 98px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-container .header-tengah {
+    margin: auto;
+  }
+
+  .header-container .header-tengah .text {
+    height: 98px;
+    margin: auto;
+  }
+
+  .header-container .header-foto {
+    height: 77px;
+    width: 77px;
+  }
+
+  .header-container .foto-aset {
+    background-color: #ffffff;
+    border: 0.5px solid;
+    border-color: #000000;
+    border-radius: 38.5px;
+    height: 77px;
+    left: 0;
+    top: 0;
+    width: 77px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .header-container .gambar {
+    height: 54px;
+    width: 51px;
+  }
+
+  .header-container .header-tengah .atas {
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-size: 44px;
+    margin-top: 5px;
+    color: #FFF;
+    line-height: normal;
+    font-style: normal;
+  }
+
+  .header-container .header-tengah .bawah {
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 7px;
+    color: #FFF;
+    line-height: normal;
+    font-style: normal;
+  }

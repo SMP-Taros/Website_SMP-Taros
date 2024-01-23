@@ -4,10 +4,14 @@ import WebVisi from './WebVisi';
 import WebSambutan from "./WebSambutan";
 import WebBanner from "./WebBanner";
 import WebFooter from "./WebFooter";
+import WebHeader from "./WebHeader";
+import WebNavbar from "./WebNavbar";
 
 function FullWeb() {
     return (
         <div className="profile-page">
+            <WebNavbar></WebNavbar>
+            <WebHeader></WebHeader>
             <WebBanner></WebBanner>
             <WebSambutan></WebSambutan>
             <WebVisi></WebVisi>

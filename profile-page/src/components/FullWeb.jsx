@@ -10,8 +10,8 @@ import WebNavbar from "./WebNavbar";
 function FullWeb() {
     return (
         <div className="profile-page">
-            <WebNavbar></WebNavbar>
             <WebHeader></WebHeader>
+            <WebNavbar></WebNavbar>
             <WebBanner></WebBanner>
             <WebSambutan></WebSambutan>
             <WebVisi></WebVisi>

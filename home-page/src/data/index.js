@@ -37,18 +37,18 @@ export const navLinks = [
   },
   {
     id: 4,
+    path: "pengumuman",
+    text: "Pengumuman",
+  },
+  {
+    id: 5,
     path: "berita",
     text: "Berita",
   },
   {
-    id: 5,
+    id: 6,
     path: "ppdb",
     text: "PPDB",
-  },
-  {
-    id: 6,
-    path: "faq",
-    text: "FAQ",
   },
   {
     id: 7,

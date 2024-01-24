@@ -29,8 +29,8 @@ const HomePage = () => {
               <button className='btn btn-outline-success btn-lg rounded-2 me-2'>YT</button>
             </Col>
             <Col className='col2 pt-lg-0 pt-5'>
-              <img src={yayasanImage} alt="yayasan-img" /> <span />
-              <img src={jsitImage} alt="jsit-img" />
+              {/* <img src={yayasanImage} alt="yayasan-img" /> <span />
+              <img src={jsitImage} alt="jsit-img" /> */}
             </Col>
           </Row>
           {/* Row ke 2 */}

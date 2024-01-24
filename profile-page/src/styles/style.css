@@ -199,7 +199,7 @@
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     width: auto;
-  }
+  } 
 
   .header-container {
     background-color: #F7DA24;

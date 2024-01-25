@@ -1,11 +1,10 @@
-import { useState, useEffect} from "react";
+import React, { useState, useEffect} from "react";
 
 import { Navbar, Container, Nav, Form, Row, Col, Button} from "react-bootstrap";
 import {navLinks} from '../data/index';
 import { NavLink } from "react-router-dom";
 
-const NavbarComponents = () => { 
-
+function NavbarComponents() { 
  
     const [active, setActivate] = useState(false);
     window.addEventListener("scroll", function () {
@@ -24,9 +23,8 @@ const NavbarComponents = () => {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            
             {/* dibawah ini adalah component navbar untuk ke halaman lain */}
-            <Nav className="ms-auto text-center">
+            <Nav className="mx-auto text-center">
               {navLinks.map((link) => {
                 return <div className="nav-link" key={link.id}>
                   <NavLink to={link.path} className={({ isActive, isPending }) =>{ 

@@ -2,8 +2,6 @@ import { Container, Row, Col} from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-import jsitImage from "../assets/img/jsit.png";
-import yayasanImage from "../assets/img/yayasan_taros.png";
 import smpitTaros from "../assets/img/smpit_taros.jpg";
 
 import Berita1 from "../assets/img/berita/inden24.png";
@@ -18,22 +16,7 @@ const HomePage = () => {
     <div className="homepage">
       <header className="w-100 min-vh-100 d-flex align-items-center">
         <Container>
-          {/* Row ke 2 */}
-          <Row className='header-box d-flex align-items-center'>
-            <Col className='col1'>
-              <h3>Assalamu'alaikum warahmatullah wabarakatuh</h3>
-              <h1 className='mb-4'>WELCOME TO SMP IT TAQIYYA ROSYIDA</h1>
-              <p className='mb-4'>Smart Excellent Become a Winner</p>
-              <button className='btn btn-outline-success btn-lg rounded-2 me-2'>IG</button> <span />
-              <button className='btn btn-outline-success btn-lg rounded-2 me-2'>FB</button> <span />
-              <button className='btn btn-outline-success btn-lg rounded-2 me-2'>YT</button>
-            </Col>
-            <Col className='col2 pt-lg-0 pt-5'>
-              {/* <img src={yayasanImage} alt="yayasan-img" /> <span />
-              <img src={jsitImage} alt="jsit-img" /> */}
-            </Col>
-          </Row>
-          {/* Row ke 2 */}
+          
         </Container>
       </header>
 

@@ -23,27 +23,27 @@ export const navLinks = [
   {
     id: 1,
     path: "",
-    text: "Home",
+    text: "HOME",
   },
   {
     id: 2,
     path: "profil",
-    text: "Profil",
+    text: "PROFIL",
   },
   {
     id: 3,
     path: "informasi",
-    text: "Informasi",
+    text: "INFORMASI",
   },
   {
     id: 4,
     path: "pengumuman",
-    text: "Pengumuman",
+    text: "PENGUMUMAN",
   },
   {
     id: 5,
     path: "berita",
-    text: "Berita",
+    text: "BERITA",
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const navLinks = [
   {
     id: 7,
     path: "contact",
-    text: "Contact",
+    text: "CONTACT",
   },
 ];
 

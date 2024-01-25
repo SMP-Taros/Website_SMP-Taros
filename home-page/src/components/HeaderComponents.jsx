@@ -1,6 +1,6 @@
 import React from "react";
 import jsitImage from "../assets/img/jsit.png";
-import yayasanImage from "../assets/img/yayasan_taros.png";
+import yayasanImage from "../assets/img/taros.jpeg";
 
 function WebHeader() {
     return (

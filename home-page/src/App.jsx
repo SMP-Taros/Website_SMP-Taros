@@ -2,7 +2,7 @@ import { Routes, Route} from "react-router-dom";
 
 import HeaderComponents from "./components/HeaderComponents";
 import NavbarComponents from "./components/NavbarComponents";
-// import FooterComponents from "./components/FooterComponents";
+import FooterComponents from "./components/FooterComponents";
  
 
 import HomePage from "./pages/HomePage";
@@ -28,7 +28,7 @@ function App() { // Route path adalah konfigurasi untuk ke masing2 halaman
       <Route path="/pengumuman" Component={PengumumanPage} />
       <Route path="/contact" Component={ContactPage} />
     </Routes>
-    {/* <FooterComponents /> */}
+    <FooterComponents />
   </div>
   );
 }

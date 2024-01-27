@@ -1,14 +1,14 @@
 import React from "react";
-import IYayasan from "../image/taros.jpeg";
-import IJSIT from "../image/jsit.png";
- 
+import jsitImage from "../assets/img/jsit.png";
+import yayasanImage from "../assets/img/taros.jpeg";
+
 function WebHeader() {
     return (
         <div className="header-container">
             <div className="header-isi">
                 <div className="header-foto">
                     <div className="foto-aset">
-                        <img className="gambar" src={IYayasan} />
+                        <img className="gambar" src={yayasanImage} />
                     </div>
                 </div>
                 <div className="header-tengah">
@@ -19,7 +19,7 @@ function WebHeader() {
                 </div>
                 <div className="header-foto">
                     <div className="foto-aset">
-                        <img className="gambar" src={IJSIT} />
+                        <img className="gambar" src={jsitImage} />
                     </div>
                 </div>
             </div>

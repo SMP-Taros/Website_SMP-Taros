@@ -6,6 +6,7 @@ import WebBanner from "./WebBanner";
 import WebFooter from "./WebFooter";
 import WebHeader from "./WebHeader";
 import WebNavbar from "./WebNavbar";
+import WebCarousel from "./WebCarousel";
 
 function FullWeb() {
     return (
@@ -16,6 +17,7 @@ function FullWeb() {
             <WebSambutan></WebSambutan>
             <WebVisi></WebVisi>
             <WebKompetensi></WebKompetensi>
+            <WebCarousel></WebCarousel>
             <WebFooter></WebFooter>
         </div>
     )

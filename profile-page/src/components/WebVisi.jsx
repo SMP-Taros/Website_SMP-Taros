@@ -11,6 +11,6 @@ function WebVisi() {
         </div>
         </div>
     )
-}
+} 
 
 export default WebVisi;

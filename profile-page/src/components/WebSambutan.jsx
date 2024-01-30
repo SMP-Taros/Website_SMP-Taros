@@ -10,7 +10,7 @@ function WebSambutan() {
             </div>
             <img src="" />
         </div>
-    )
+    ) 
 }
 
 export default WebSambutan;

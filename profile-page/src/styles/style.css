@@ -318,3 +318,98 @@
     height: 758px;
     flex-shrink: 0;
   }
+
+  .carousel-container .text-wrapper {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .carousel-container .text {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .carousel-container .carousel-isi {
+    height: 648px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-container .carousel-isi .carousel-box {
+    width: 70%;
+    height: 80%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .carousel-container .carousel-isi .carousel-box img {
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 35px;
+    height: 70px;
+    left: 0;
+    top: 0;
+    width: 70px;
+    margin-top: 10%;
+  }
+
+  .carousel-container .carousel-isi .carousel-box .text-quotes {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+
+  .carousel-container .carousel-isi .carousel-box .text-author {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* ini dibawah style library swiper.js */
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    display: none;
+  }
+
+  .swiper-button-next {
+    background-image: url(../image/btn-next.svg);
+    width: 50px;
+    margin-right: 20px;
+  }
+
+  .swiper-button-prev {
+    background-image: url(../image/btn-prev.svg);
+    width: 50px;
+    margin-left: 20px;
+    
+  }
+
+  .swiper-pagination-bullet-active {
+    background: green !important;
+    
+  }
+  .swiper-pagination-bullet {
+    /* margin-bottom: 20px !important; */
+    padding: 5px;
+  }

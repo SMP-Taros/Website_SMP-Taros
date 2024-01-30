@@ -2,7 +2,7 @@ import React, { useState, useEffect} from "react";
 
 import { Navbar, Container, Nav, Form, Row, Col, Button} from "react-bootstrap";
 import {navLinks} from '../data/index';
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NavbarComponents() { 
  
@@ -14,31 +14,37 @@ function NavbarComponents() {
             setActivate(false);
         }
     });
-    // Cek isi data navLinks untuk memastikan bentuknya sesuai
-  console.log(navLinks);
-  return (
-    <div>
-      <Navbar expand="lg"  className={active ? "activenav" : ""}>
 
-        <Container>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            {/* dibawah ini adalah component navbar untuk ke halaman lain */}
-            <Nav className="mx-auto text-center">
-              {navLinks.map((link) => {
-                return <div className="nav-link" key={link.id}>
-                  <NavLink to={link.path} className={({ isActive, isPending }) =>{ 
-                     // Gunakan conditional classNames untuk menentukan kelas yang aktif
-                    isPending ? "pending" : isActive ? "active" : ""}} end>
-                    {link.text}
-                  </NavLink>
+  return (
+    <div className="navbar-container">
+            <header className={active ? "activenav" : ""}>
+                <div className="navbar-list">
+                    <ul>
+                    <li>
+                        <Link to="/">HOME</Link>
+                        </li>
+                        <li>
+                          <Link to="/profil">PROFIL</Link>
+                        </li>
+                        <li>
+                          <Link to="/informasi">INFORMASI</Link>
+                        </li>
+                        <li>
+                          <Link to="/pengumuman">PENGUMUMAN</Link>
+                        </li>
+                        <li>
+                          <Link to="/berita">BERITA</Link>
+                        </li>
+                        <li>
+                          <Link to="/ppdb">PPDB</Link>
+                        </li>
+                        <li>
+                          <Link to="/contact">CONTACT</Link>
+                        </li>
+                    </ul>
                 </div>
-              })}
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </div>
+            </header>
+        </div>
   )
 }
 

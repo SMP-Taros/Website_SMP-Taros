@@ -13,9 +13,15 @@ import Berita2 from "../assets/img/berita/brosurPpdb24.png";
 import Berita3 from "../assets/img/berita/persis24.png";
 import Berita4 from "../assets/img/berita/akreditasi.png";
 
-import People1 from "../assets/img/testimonial/people-1.jpg";
-import People2 from "../assets/img/testimonial/people-2.jpg";
-import People3 from "../assets/img/testimonial/people-3.jpg";
+import Fasilitas1 from "../assets/img/fasilitas/kantin.png";
+import Fasilitas2 from "../assets/img/fasilitas/masjid.png";
+import Fasilitas3 from "../assets/img/fasilitas/aula.png";
+import Fasilitas4 from "../assets/img/fasilitas/perpus.png";
+
+import People1 from "../assets/img/testi/sriyadi.png";
+import People2 from "../assets/img/testi/retno.png";
+import People3 from "../assets/img/testi/arif.png";
+import People4 from "../assets/img/testi/antin.png";
 
 
 
@@ -177,118 +183,64 @@ export const semuaKelas = [
     delay: "600",
   },
 ];
-
+ 
 export const beritaSekolah = [
   {
     id: 1,
     image: Berita1,
     title: "INDEN PPDB TAHUN AJARAN 2024/2025",
     clock: "fa-regular fa-clock",
-    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum modi minus maxime dicta sed magnam voluptates exercitationem sapiente ad?",
+    date: "August 09, 2023",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum modi minus maxime dicta sed magnam voluptates exercitationem sapiente ad",
   },
   {
     id: 2,
     image: Berita2,
     title: "BROSUR PPDB 2023-2024",
     clock: "fa-regular fa-clock",
-    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum modi minus maxime dicta sed magnam voluptates exercitationem sapiente ad?",
+    date: "Sept 03, 2023",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum modi minus maxime dicta sed magnam voluptates exercitationem sapiente ad",
   },
   {
     id: 3,
     image: Berita3,
     title: "SISWA SMPIT TAQIYYA ROSYIDA LOLOS SELEKSI PERSIS SOLO U-14",
     clock: "fa-regular fa-clock",
-    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum modi minus maxime dicta sed magnam voluptates exercitationem sapiente ad?",
+    date: "August 19, 2023",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum modi minus maxime dicta sed magnam voluptates exercitationem sapiente ad",
   },
   {
     id: 4,
     image: Berita4,
     title: "SMPIT TAQIYYA ROSYIDA RAIH AKREDITASI A",
     clock: "fa-regular fa-clock",
-    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum modi minus maxime dicta sed magnam voluptates exercitationem sapiente ad?",
+    date: "August 29, 2023",
+    p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum modi minus maxime dicta sed magnam voluptates exercitationem sapiente ad",
   },
 ]
 
-export const kelasTerbaru = [
+export const fasilitasSekolah = [
   {
     id: 1,
-    image: KelasImage1,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    title: "Character Illustration with Adobe Illustrator",
-    price: "Rp. 300.000",
-    buy: "Beli Kelas",
-    delay: "",
+    image: Fasilitas1,
+    title: "Kantin",
   },
   {
     id: 2,
-    image: KelasImage2,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "UI UX Website Design for Beginner with Figma",
-    price: "Rp. 340.000",
-    buy: "Beli Kelas",
-    delay: "200",
+    image: Fasilitas2,
+    title: "Masjid",
   },
   {
     id: 3,
-    image: KelasImage3,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Web Developer Bootstrap 5",
-    price: "Rp. 280.000",
-    buy: "Beli Kelas",
-    delay: "400",
+    image: Fasilitas3,
+    title: "Aula",
   },
   {
     id: 4,
-    image: KelasImage4,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Logo with Adobe Illustrator",
-    price: "Rp. 420.000",
-    buy: "Beli Kelas",
-    delay: "",
+    image: Fasilitas4,
+    title: "Perpustakaan",
   },
-  {
-    id: 5,
-    image: KelasImage5,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "3D Modelling for Beginner with 3D Blender",
-    price: "Rp. 380.000",
-    buy: "Beli Kelas",
-    delay: "200",
-  },
-  {
-    id: 6,
-    image: KelasImage6,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Icon Design with Adobe Illustrator",
-    price: "Rp. 300.000",
-    buy: "Beli Kelas",
-    delay: "400",
-  },
-];
+]
 
 export const testimonial = [
   {
@@ -329,7 +281,7 @@ export const testimonial = [
   {
     id: 6,
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
+    image: People4,
     name: "People 6",
     skill: "Web Developer",
   },
@@ -359,45 +311,31 @@ export const testimonial = [
 export const dataSwiper = [
   {
     id: 1,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: " \"Alhamdulillah, Semoga kehadiran SMP IT Taqiyya Rosyida dapat mewujudkan generasi Rabbani, generasi para penghafal Al Qur'an yang insyaAllah menjadi para penerus kejayaan Umat. Jikalau diri kita belum mampu mencapainya, maka anak-anak dan cucu-cucu kita yang kita persiapkan untuk menggapainya, dengan kita masukkan ke Ponpes atau SMP IT Taqiyya Rosyida\" ",
     image: People1,
-    name: "People 1",
-    skill: "UI UX Designer",
+    name: "Drs. H. Sriyadi",
+    position: "Dewan Pembina Yayasan Taqiyya Rosyida",
   },
   {
     id: 2,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "\"SMP IT Taqiyya Rosyida merupakan jawaban atas kegelisahan akan hadirnya sekolah yang mampu memadukan antara pendidikan akademik dan pendidikan akhlak yang diperkuat dengan pendidikan Al-Qur'an serta didukung oleh guru dengan kompetensi pedagogis, sosial, profesional dan kompetensi keIslaman baik. Selamat berjuang. Semoga mampu melahirkan generasi yang berakhlak mulia, berwawasan luas qur'ani dan berprestasi\"",
     image: People2,
-    name: "People 2",
-    skill: "Flutter Developer",
+    name: "Dr. Retno Wahyuningsih, S.Si., M.Pd",
+    position: "Tim Penjamin Mutu Yayasan Taqiyya Rosyida, Dosen IAIN Surakarta",
   },
   {
     id: 3,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "\"Saya yakin, dengan berdirinya SMP IT Taqiyya Rosyida akan mampu meneruskan prestasi dan keberhasilan SD IT Taqiyya Rosyida selama ini. Perpaduan kurikulum dunia dan ukhrowi menjadikan anak bisa sukses di dunia dan akhirat\"",
     image: People3,
-    name: "People 3",
-    skill: "Web Developer",
+    name: "Arif Priyanto, S.Pd.I",
+    position: "Direktur Pendidikan Yayasan Taqiyya Rosyida, Kepala Sekolah Berprestasi Tahun 2016",
   },
   {
     id: 4,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    desc: "\"Anak adalah amanah bagi orang tua, sehingga kita punya tanggung jawab yang besar untuk mereka. Jangan sampai salah pilih sekolah. InsyaAllah Yayasan Taqiyya Rosyida sudah membuktikan bahwa umur bukan pengukur kualitas sekolah, tapi kesungguhan dari seluruh civitas sekolah untuk selalu berbenah dan melangkah maju itulah penentunya\"",
     image: People1,
-    name: "People 4",
-    skill: "UI UX Designer",
-  },
-  {
-    id: 5,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 5",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 6,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 6",
-    skill: "Web Developer",
+    name: "Antin Suhermin, S.Si",
+    position: "Guru SMK N 1 Sawit, Orang Tua Murid SD IT dan SMP IT Taqiyya Rosyida",
   },
 ];
 

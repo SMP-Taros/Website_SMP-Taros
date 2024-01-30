@@ -4,7 +4,7 @@ function WebNavbar() {
 
     const [active, setactivate] = useState(false);
     window.addEventListener("scroll", function () {
-        if (this.window.scrollY > 100) {
+        if (this.window.scrollY > 150) {
             setactivate(true);
         } else {
             setactivate(false);

@@ -1,13 +1,13 @@
 import React from 'react'
+import Posts from './komponen-berita/Posts'
+import { listBerita } from '../data/data'
 
 function WebListBerita() {
+const posts = listBerita();
+
   return (
     <div className='berita-container'>
-        <ul className='berita-isi'>
-            <li className='list-berita'>
-                
-            </li>
-        </ul>
+        <Posts posts={posts} />
     </div>
   )
 }

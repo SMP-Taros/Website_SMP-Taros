@@ -10,26 +10,24 @@
 
 .kompetensi-container {
     width: 934px;
-    height: 379px;
     flex-shrink: 0;
-    margin: 20px auto; /* Centers the container */
+    margin:  auto; /* Centers the container */
     padding: 20px;
-    margin-bottom: 70px;
   }
   
   .kompetensi-header {
     font-size: 24px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-family: "Roboto", sans-serif;
   }
   
   .kompetensi-list {
-    margin-top: 5%;
     list-style: none; /* Removes default list styling */
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(2, 1fr);
     grid-gap: 0.5rem;
+    height: 379px;
   }
   
   .kompetensi-list li {
@@ -39,7 +37,7 @@
     color: black;
     font-size: 18px;
     margin-bottom: 10px;
-    padding-left: 0px; /* Adjust space for custom bullet */
+    height: 50px;
   }
 
   .visi-background {
@@ -384,7 +382,7 @@
     line-height: normal;
   }
 
-  /* ini dibawah style library swiper.js */
+  /* <---> ini dibawah style library swiper.js "carousel-container" <---> */ 
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -418,4 +416,11 @@
   .swiper-pagination-bullet {
     /* margin-bottom: 20px !important; */
     padding: 5px;
+  }
+
+    /* <---> ini diatas style library swiper.js "carousel-container" <---> */
+
+  .berita-container {
+    margin: auto;
+    width: 1283px;
   }

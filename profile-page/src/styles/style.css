@@ -4,29 +4,30 @@
     background: #FFF; */
 }
 
+.news-page {
+
+}
+
 .kompetensi-container {
     width: 934px;
-    height: 379px;
     flex-shrink: 0;
-    margin: 20px auto; /* Centers the container */
+    margin:  auto; /* Centers the container */
     padding: 20px;
-    margin-bottom: 70px;
   }
   
   .kompetensi-header {
     font-size: 24px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-family: "Roboto", sans-serif;
   }
   
   .kompetensi-list {
-    margin-top: 5%;
     list-style: none; /* Removes default list styling */
-    padding: 10;
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(2, 1fr);
     grid-gap: 0.5rem;
+    height: 379px;
   }
   
   .kompetensi-list li {
@@ -36,7 +37,7 @@
     color: black;
     font-size: 18px;
     margin-bottom: 10px;
-    padding-left: 0px; /* Adjust space for custom bullet */
+    height: 50px;
   }
 
   .visi-background {
@@ -133,10 +134,11 @@
 
   .footer-container .footer-kiri {
     margin-top: 50px;
+    margin-left: 2%;
   }
 
   .footer-container .footer-kanan {
-    margin-left: 300px;
+    margin-left: 20%;
   }
 
   .footer-kanan .contact {
@@ -277,6 +279,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
 
   .navbar-container .activenav {
@@ -309,7 +312,7 @@
     list-style: none;
   }
 
-  .navbar-container a {
+  .navbar-container .link {
     color: #FFF;
     text-decoration: none;
   }
@@ -379,7 +382,7 @@
     line-height: normal;
   }
 
-  /* ini dibawah style library swiper.js */
+  /* <---> ini dibawah style library swiper.js "carousel-container" <---> */ 
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -413,4 +416,76 @@
   .swiper-pagination-bullet {
     /* margin-bottom: 20px !important; */
     padding: 5px;
+  }
+
+    /* <---> ini diatas style library swiper.js "carousel-container" <---> */
+
+  .berita-container {
+    margin: auto;
+    width: 1283px;
+    flex-shrink: 0;
+    margin-top: 71px;
+  }
+
+  .berita-container .berita-isi {
+    margin-left: -2.5%;
+    list-style-type: none;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    column-gap: 248px;
+    height: 2901px;
+  }
+
+  .berita-container .gambar {
+    width: 516px;
+    height: 356px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+  }
+
+  .berita-container .date {
+    display: flex;
+    align-items: center;
+  }
+
+  .berita-container .date-text {
+    height: 24px;
+    margin-left: 10px;
+  }
+
+  .berita-container .title {
+    font-family: "Roboto", sans-serif;
+    margin-top: 56px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .berita-container .date {
+    font-family: "Poppins", sans-serif;
+    margin-top: 25px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .berita-container .deskripsi {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .berita-container .link {
+    color: #4BB67C;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }

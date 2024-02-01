@@ -14,7 +14,7 @@ import Berita3 from "../assets/img/berita/persis24.png";
 import Berita4 from "../assets/img/berita/akreditasi.png";
 
 import Fasilitas1 from "../assets/img/fasilitas/kantin.png";
-import Fasilitas2 from "../assets/img/fasilitas/masjid.png";
+import Fasilitas2 from "../assets/img/fasilitas/masjid.png"; 
 import Fasilitas3 from "../assets/img/fasilitas/aula.png";
 import Fasilitas4 from "../assets/img/fasilitas/perpus.png";
 

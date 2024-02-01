@@ -1,8 +1,7 @@
-import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText, Button } from "react-bootstrap"
+import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText, Button, Carousel} from "react-bootstrap"
+
 import smpitTaros from "../assets/img/smpit_taros.jpg";
-
-
-
+ 
 import {beritaSekolah, dataSwiper} from "../data/index";
 import { fasilitasSekolah } from '../data/index';
 
@@ -11,29 +10,59 @@ import Fasilitas2 from "../assets/img/fasilitas/masjid.png";
 import Fasilitas3 from "../assets/img/fasilitas/aula.png";
 import Fasilitas4 from "../assets/img/fasilitas/perpus.png";
 
+import Kontak1 from "../assets/img/kontak/email.png";
+import Kontak2 from "../assets/img/kontak/ig.png";
+import Kontak3 from "../assets/img/kontak/fb.png";
+import Kontak4 from "../assets/img/kontak/telp.png";
+
 import {useNavigate} from 'react-router-dom';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+// import required modules
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import 'swiper/css/scrollbar';
+import Contoh from '../assets/img/testi/contoh.jpg';
 
-// import required modules
-import { Pagination, Navigation } from 'swiper/modules';
 
 const HomePage = () => {
   let navigate = useNavigate();
 
   return (
     <div className="homepage">
+      {/* HEADER */}
       <header className="w-100 min-vh-100 d-flex align-items-center">
         <Container>
-          
+          <Carousel>
+            <Carousel.Item>
+              <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
         </Container>
       </header>
+      {/* HEADER  */}
 
       {/* profil sekolah */}
       <div className="profil w-100 min-vh-100">
@@ -269,20 +298,22 @@ const HomePage = () => {
                     Lihat Selengkapnya
                   </button>
                 </div>
-              </Row>
+          </Row>
         </div>  
       {/* PENGUMUMAN */}
       
       {/* TESTIMONI */}
-        <div className="testimoni w-100 min-vh-100">
+      <div className="testimoni w-100 min-vh-100">
           <Container>
             <Row className="testi-judul">
               <Col>
               <h1 className='text-center fw-bold my-4'>TESTIMONI</h1>
               </Col>
             </Row>
-            <Row className="swiper2">
-              <Swiper
+          </Container>
+      </div>
+      <div className="carousel-container">
+            <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
                 loop={true}
@@ -292,27 +323,129 @@ const HomePage = () => {
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
-              >
-                {dataSwiper.map((data) => {
-                  return <SwiperSlide  key={data.id}>
-                    <div className="people">
-                      <img src={data.image} alt="" className="mb-5" />
+            // scrollbar={{ draggable: true }}
+            >
+                <SwiperSlide>
+                    <div className='carousel-isi'>
+                        <div className="carousel-box">
+                            <img src={Contoh} />
+                            <div className="text-quotes">
+                                "Alhamdulillah, Semoga kehadiran SMP IT Taqiyya Rosyida dapat mewujudkan generasi Rabbani, generasi para penghafal Al Qur'an yang insyaAllah menjadi para penerus kejayaan Umat. Jikalau diri kita belum mampu mencapainya, maka anak-anak dan cucu-cucu kita yang kita persiapkan untuk menggapainya, dengan kita masukkan ke Ponpes atau SMP IT Taqiyya Rosyida"
+                            </div>
+                            <div className="text-author">
+                                Drs. H. Sriyadi
+                            </div>
+                            <div className="text-author">
+                                Dewan Pembina Yayasan Taqiyya Rosyida
+                            </div>
+                        </div>
                     </div>
-                    <p className="desc">{data.desc}</p>
-                    <div className="ket">
-                        <h5 className="mt-3">{data.name}</h5>
-                        <p className="m-0 fw-bold">{data.position}</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='carousel-isi'>
+                        <div className="carousel-box">
+                            <img src={Contoh} />
+                            <div className="text-quotes">
+                                "SMP IT Taqiyya Rosyida merupakan jawaban atas kegelisahan akan hadirnya    sekolah yang mampu memadukan antara pendidikan akademik dan pendidikan akhlak yang diperkuat dengan pendidikan Al-Qur'an serta didukung oleh guru dengan kompetensi pedagogis, sosial, profesional dan kompetensi keIslaman baik. Selamat berjuang. Semoga mampu melahirkan generasi yang berakhlak mulia, berwawasan luas qur'ani dan berprestasi"
+                                "
+                            </div>
+                            <div className="text-author">
+                                Dr. Retno Wahyuningsih, S.Si., M.Pd
+                            </div>
+                            <div className="text-author">
+                                Tim Penjamin Mutu Yayasan Taqiyya Rosyida, Dosen IAIN Surakarta
+                            </div>
+                        </div>
                     </div>
-                    </SwiperSlide>;
-                })} 
-              </Swiper> 
-            </Row>
-          </Container>
-
-        </div>  
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='carousel-isi'>
+                        <div className="carousel-box">
+                            <img src={Contoh} />
+                            <div className="text-quotes">
+                                "Saya yakin, dengan berdirinya SMP IT Taqiyya Rosyida akan mampu meneruskan prestasi dan keberhasilan SD IT Taqiyya Rosyida selama ini. Perpaduan kurikulum dunia dan ukhrowi menjadikan anak bisa sukses di dunia dan akhirat"
+                            </div>
+                            <div className="text-author">
+                              Arif Priyanto, S.Pd.I
+                            </div>
+                            <div className="text-author">
+                                Direktur Pendidikan Yayasan Taqiyya Rosyida, Kepala Sekolah Berprestasi Tahun 2016
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='carousel-isi'>
+                        <div className="carousel-box">
+                            <img src={Contoh} />
+                            <div className="text-quotes">
+                                "Anak adalah amanah bagi orang tua, sehingga kita punya tanggung jawab yang besar untuk mereka. Jangan sampai salah pilih sekolah. InsyaAllah Yayasan Taqiyya Rosyida sudah membuktikan bahwa umur bukan pengukur kualitas sekolah, tapi kesungguhan dari seluruh civitas sekolah untuk selalu berbenah dan melangkah maju itulah penentunya"
+                            </div>
+                            <div className="text-author">
+                                Antin Suhermin, S.Si
+                            </div>
+                            <div className="text-author">
+                                Guru SMK N 1 Sawit, Orang Tua Murid SD IT dan SMP IT Taqiyya Rosyida
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+            </Swiper>
+        </div> 
       {/* TESTIMONI */}
 
-                
+      {/* Kontak Page */}
+      <div className='kontak w-100 min-vh-100'>
+        <Row>
+          <Col>
+            <h1 className='text-center fw-bold'>CONTACT</h1>
+            <p className='text-center'>Hubungi kami lebih lanjut :</p>
+          </Col>
+        </Row>
+        <Row className='kontak-row'>
+              <Col className='col5 mt-5'>
+                <div className="img-wrapper">
+                  <img src={Kontak1} alt="email" width="50px" />
+                </div>
+                <div className="img-wrapper">
+                  <img src={Kontak2} alt="instagram" width="50px" />
+                </div>
+                <div className="img-wrapper">
+                  <img src={Kontak3} alt="facebook" width="50px" />
+                </div>
+                <div className="img-wrapper">
+                  <img src={Kontak4} alt="instagram" width="50px" />
+                </div>
+              </Col>
+              <Col className="col6 text0center mt-5">
+                <div className="text-wrapper">
+                  <p className="">smpit.taqiyyarosyida@gmail.com</p>
+                </div>
+                <div className="text-wrapper">
+                  <p className="">SMP TAROS</p>
+                </div>
+                <div className="text-wrapper">
+                  <p className="">SMP TAROS</p>
+                </div>
+                <div className="text-wrapper">
+                  <p className="">Syafi'i : 0857 2538 0565 <br />
+                     Kak TaroS : 0896 76000 390</p>
+                </div>
+              </Col>
+            </Row>
+            <Row className="kontak-btn">
+                <div className="kontak-bt">
+                  <button
+                    className={`btn btn-success btn-lg rounded-2 mt-5`} onClick={() => navigate("/contact")}>
+                    Lihat Selengkapnya
+                  </button>
+                </div>
+            </Row>
+      
+      </div>
+      {/* Kontak Page */}
+
+      
     </div>
   )
 }

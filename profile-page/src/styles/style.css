@@ -4,6 +4,10 @@
     background: #FFF; */
 }
 
+.news-page {
+
+}
+
 .kompetensi-container {
     width: 934px;
     height: 379px;
@@ -23,7 +27,6 @@
   .kompetensi-list {
     margin-top: 5%;
     list-style: none; /* Removes default list styling */
-    padding: 10;
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(2, 1fr);
     grid-gap: 0.5rem;
@@ -133,10 +136,11 @@
 
   .footer-container .footer-kiri {
     margin-top: 50px;
+    margin-left: 2%;
   }
 
   .footer-container .footer-kanan {
-    margin-left: 300px;
+    margin-left: 20%;
   }
 
   .footer-kanan .contact {
@@ -277,6 +281,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
 
   .navbar-container .activenav {
@@ -290,6 +295,7 @@
     align-items: center;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    z-index: 999999;
   }
 
   .navbar-container .navbar-list {
@@ -308,7 +314,7 @@
     list-style: none;
   }
 
-  .navbar-container a {
+  .navbar-container .link {
     color: #FFF;
     text-decoration: none;
   }

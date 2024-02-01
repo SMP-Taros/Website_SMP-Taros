@@ -1,6 +1,6 @@
 import React from 'react'
 import Posts from './komponen-berita/Posts'
-import { listBerita } from '../data/data'
+import { listBerita } from '../data/data-berita'
 
 function WebListBerita() {
 const posts = listBerita();

@@ -12,7 +12,7 @@ import NewsDetailPage from './pages/NewsDetailPage';
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <ProfilePage />,
+        element: <ProfilePage />, 
     },
     {
         path: "/berita",

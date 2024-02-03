@@ -139,6 +139,7 @@
 
   .footer-container .footer-kanan {
     margin-left: 20%;
+    margin-top: 15px;
   }
 
   .footer-kanan .contact {
@@ -146,10 +147,12 @@
     font-size: 18px;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
+    margin-top: -10px;
   }
 
   .footer-header {
     display: flex;
+    margin-top: 20px;
   }
 
   .footer-container .footer-maps {
@@ -167,6 +170,8 @@
   .footer-container .footer-email {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
+    margin-top: 27.5px;
   }
 
   .footer-container .footer-instagram {
@@ -200,6 +205,7 @@
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     width: auto;
+    row-gap: 15px;
   } 
 
   .header-container {
@@ -279,7 +285,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
   }
 
   .navbar-container .activenav {
@@ -310,6 +315,7 @@
     justify-content: center;
     gap: 50px;
     list-style: none;
+    margin-top: 15px;
   }
 
   .navbar-container .link {
@@ -420,6 +426,23 @@
 
     /* <---> ini diatas style library swiper.js "carousel-container" <---> */
 
+  .berita-atap {
+    height: 152px;
+    background-color: #E8E8E8;
+    display: flex;
+    align-items: center;
+  }
+
+  .berita-atap .text-atap {
+    margin-left: 78px;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.76px;
+  }
+
   .berita-container {
     margin: auto;
     width: 1283px;
@@ -441,6 +464,7 @@
     height: 356px;
     flex-shrink: 0;
     background-color: #D9D9D9;
+    border-radius: 20px;
   }
 
   .berita-container .date {
@@ -489,3 +513,21 @@
     font-weight: 400;
     line-height: normal;
   }
+
+  .berita-container .page-link {
+    color: #4BB67C;
+  }
+
+  .berita-container .page-link:focus {
+    box-shadow: #4BB67C;
+  }
+
+  /*
+  .berita-container .page-link {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  } */

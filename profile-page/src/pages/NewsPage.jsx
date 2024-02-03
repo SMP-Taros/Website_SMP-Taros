@@ -9,6 +9,9 @@ function NewsPage() {
         <div className='news-page'>
             <WebHeader />
             <WebNavbar />
+            <div className='berita-atap'>
+                <div className='text-atap'>BERITA</div>
+            </div>
             <WebListBerita />
             <WebFooter />
         </div>

@@ -7,6 +7,7 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
+import NewsDetailPage from './pages/NewsDetailPage';
 
 const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     {
         path: "/berita",
         element: <NewsPage />,
+    },
+    {
+        path: "/berita/detail-berita/:id",
+        element: <NewsDetailPage />,
     },
 ]);
 

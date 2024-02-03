@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import Contoh from '../assets/img/testi/contoh.jpg'; 
-
+ 
 const WebTestiHome = ()=>{
     return (
         <div className="testimoni w-100 min-vh-100">

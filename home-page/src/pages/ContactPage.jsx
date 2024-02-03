@@ -1,7 +1,12 @@
-const ContactPage = () => {
+import React from "react";
+import WebBannerKontak from "../components/WebBannerKontak";
+import WebKontak from "../components/WebKontak";
+
+function ContactPage(){
   return (
-    <div>
-      Ini adalah Contact Page
+    <div className="contact-page">
+      <WebBannerKontak></WebBannerKontak>
+      <WebKontak></WebKontak>
     </div>
   )
 }

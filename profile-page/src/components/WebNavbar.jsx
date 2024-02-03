@@ -14,7 +14,7 @@ function WebNavbar() {
 
     return (
         <div className="navbar-container">
-            <header className={active ? "activenav" : ""}>
+            <header className={active ? "activenav" : "nav"}>
                 <div className="navbar-list">
                     <ul>
                         <li>

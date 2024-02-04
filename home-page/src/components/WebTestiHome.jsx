@@ -25,7 +25,7 @@ const WebTestiHome = ()=>{
           <div className="carousel-container">
             <Swiper
                 slidesPerView={1}
-                spaceBetween={30}
+                spaceBetween={50}
                 loop={true}
                 pagination={{
                   clickable: true,

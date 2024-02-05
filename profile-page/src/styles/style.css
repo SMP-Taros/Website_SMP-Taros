@@ -8,36 +8,66 @@
 
 }
 
-.kompetensi-container {
-    width: 934px;
+.program-container {
+    width: 1234px;
     flex-shrink: 0;
     margin:  auto; /* Centers the container */
     padding: 20px;
+    margin-top: 30px;
   }
   
-  .kompetensi-header {
-    font-size: 24px;
+  .program-header {
+    font-size: 32px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 71px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+  }
+
+  .program-container .program-pendukung {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    gap: 55px;
+    margin-bottom: 80px;
+  }
+
+  .program-container .program-isi {
+    height: 100%;
+    width: 360px;
+    border-radius: 28px;
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .program-container .program-isi-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 87px;
+    width: 300px;
+  }
+
+  .program-container .text-box {
+    margin-left: 20px;
+  }
+
+  .program-container .title {
+    font-weight: 600;
+    font-size: 24px;
     font-family: "Roboto", sans-serif;
   }
-  
-  .kompetensi-list {
-    list-style: none; /* Removes default list styling */
-    display: grid;
-    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-    grid-gap: 0.5rem;
-    height: 379px;
-  }
-  
-  .kompetensi-list li {
+
+  .banner-container .desc {
+    font-weight: 400;
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-    font-size: 18px;
-    margin-bottom: 10px;
-    height: 50px;
   }
 
   .visi-background {

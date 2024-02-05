@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../image/taros.jpeg";
+import Image from "/image/taros.jpeg";
 
 function WebSambutan() {
     return (

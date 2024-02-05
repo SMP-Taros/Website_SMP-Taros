@@ -1,8 +1,7 @@
 import React from 'react'
-import Jam from '../image/clock.svg';
+import Jam from '/image/clock.svg';
 import { useParams } from 'react-router-dom';
 import { listBerita } from '../data/data-berita';
-import gambar from '../image/contoh.jpg'
 
 function WebDetailBerita() {
     const { id } = useParams();

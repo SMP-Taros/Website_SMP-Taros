@@ -1,6 +1,6 @@
 import React from "react";
-import IYayasan from "../image/taros.jpeg";
-import IJSIT from "../image/jsit.png";
+import IYayasan from "/image/taros.jpeg";
+import IJSIT from "/image/jsit.png";
  
 function WebHeader() {
     return (

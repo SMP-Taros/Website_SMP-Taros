@@ -1,7 +1,12 @@
-const InformasiPage = () => {
+import React from "react";
+import WebBannerKurikulum from "../components/WebBannerKurikulum";
+import WebKurikulum from "../components/WebKurikulum";
+
+function InformasiPage(){
   return (
-    <div>
-      Ini adalah Informasi Page
+    <div className="info-kurkum">
+      <WebBannerKurikulum></WebBannerKurikulum>  
+      <WebKurikulum></WebKurikulum>
     </div>
   )
 }

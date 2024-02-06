@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
  
 function PpdbButton(){
-    return (
+    return ( 
         <div className='ppdb-button-container'>
             <div className='box'>
                 <Link to='/ppdb/pendaftaran'>

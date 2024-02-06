@@ -9,7 +9,7 @@ function PpdbPage() {
   const LinkForm = () => {
     const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdUtl_e_reepnFwzTDJRf_UMUosbnOM4OEJO7ZRDqQXmE0HqA/viewform';
     window.open(formURL, '_blank');
-  };
+  }; 
   return (
     <div className="ppdb-page"> 
       <WebBannerPpdb></WebBannerPpdb>
@@ -27,7 +27,7 @@ function PpdbPage() {
               </div>
                 <button onClick={LinkForm} className='button-form'>
                     ISI FORMULIR KLIK DISINI
-                </button>
+                </button> 
               <div className="img ">
                   <img src={Brosur} alt="brosurPpdb" />
               </div>

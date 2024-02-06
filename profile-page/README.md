@@ -1,9 +1,4 @@
-# React Profile-Page progress
+# library
+npm i swiper
+npm react-router-dom
 
-navbar (belum)
-banner (belum)
-kepsek (belum)
-visi (udah)
-kompetensi (udah)
-sambutan (belum)
-footer (belum)

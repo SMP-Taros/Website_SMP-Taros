@@ -660,7 +660,6 @@
   .ppdb-button-container {
     height: 85px;
     margin-top: 40px;
-    margin-bottom: 80px;
   }
 
   .ppdb-button-container .box {
@@ -709,6 +708,158 @@
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 30px;
+    margin-top: 80px;
+  }
+
+  .ppdbpage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .ppdbpage-isi {
+    width: 1347px;
+    height: 1979px;
+    background-color: rgba(232, 232, 232, 0.4300000071525574);
+  }
+
+  .ppdbpage-container .box {
+    height: 72px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    background-color: #4BB67C;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    margin: 50px 0px 0px 50px;
+  }
+
+  .ppdbpage-container .text {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 50px 0px 0px 70px;
+  }
+
+  .ppdb-button-next {
+    width: 151px;
+    height: 65px;
+    background-color: #F6C03C;
+    font-size: 33px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px 30px 1280px;
+  }
+
+  .check-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .check-box-container .content {
+    width: 772px;
+    height: 500px;
+    text-align: center;
+  }
+
+  .check-box-container .content .title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 30px 0px 20px 0px;
+  }
+
+  .check-box-container .content .orange-line {
+    width: 100%;
+    height: 6px;
+    background-color: #F6C03C;
+    border-radius: 5px;
+  }
+
+  .check-box-container .content .box {
+    width: 100%;
+    height: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .check-box-container .content .input-box {
+    width: 80%;
+    height: 80%;
+  }
+
+  .check-box-container .content .span-text {
+    margin-bottom: 10px;
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .check-box-container .content .text-box {
+    width: 100%;
+    height: 57px;
+    border-radius: 8px;
+    border: 1px solid rgba(159, 155, 155, 0.8);
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 10px;
+  }
+
+  .check-box-container .content .date-box {
+    width: 100%;
+    height: 57px;
+    border-radius: 8px;
+    border: 1px solid rgba(159, 155, 155, 0.8);
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 15px;
+    background: url(/image/calendar-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 98.5%;
+  }
+
+  .check-box-container .content .date-box::-webkit-calendar-picker-indicator {
+    padding-right: 20px;
+    opacity: 0;
+  }
+
+  .check-box-container .content .check-status {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    background-color: #F6C03C;
+    width: 139px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 5% 0% 0% 76%;
+  }
+  .check-box-container .content .check-pengumuman {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    background-color: #F6C03C;
+    width: 226px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 5% 0% 0% 62%;
   }
 
 

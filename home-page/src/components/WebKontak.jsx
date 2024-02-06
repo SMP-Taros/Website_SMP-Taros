@@ -54,8 +54,8 @@
                                 feedback="You must agree before submitting."
                                 feedbackType="invalid"
                                 />
-                            </Form.Group> */}
-                            <Button type="submit">Submit form</Button>
+                            </Form.Group> */} 
+                            <Button variant="success" type="submit">Submit form</Button>
                         </Form>
                     </Col>
                     <Col className="colkon2">
@@ -67,7 +67,7 @@
                             <p className="fw-bold">dan tetap ikut informasi terbaru dari kami </p>
                             <a href="https://www.instagram.com/smpittaqiyyarosyida/">https://www.instagram.com/smpittaqiyyarosyida/</a>
                         </div>
-                    </Col>
+                    </Col> 
                 </Row>
                 
             </Container>

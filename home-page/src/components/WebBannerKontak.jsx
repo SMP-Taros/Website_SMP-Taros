@@ -1,6 +1,6 @@
 import React from 'react';
 
-function WebBannerKontak() {
+function WebBannerKontak() { 
     return (
         <div className='banner-kontak-container'>
             <div className='banner-kontak-warna'>

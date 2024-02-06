@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useState } from "react";
 
 import { Navbar, Container, Nav, Form, Row, Col, Button} from "react-bootstrap";
 import {navLinks} from '../data/index';
@@ -21,25 +21,25 @@ function NavbarComponents() {
                 <div className="navbar-list">
                     <ul>
                     <li>
-                        <Link to="/">HOME</Link>
+                        <Link className="link" to="/">HOME</Link>
                         </li>
                         <li>
-                          <Link to="/profil">PROFIL</Link>
+                          <Link className="link" to="/profil">PROFIL</Link>
                         </li>
                         <li>
-                          <Link to="/informasi">INFORMASI</Link>
+                          <Link className="link" to="/informasi">INFORMASI</Link>
                         </li>
                         <li>
-                          <Link to="/pengumuman">PENGUMUMAN</Link>
+                          <Link className="link" to="/pengumuman">PENGUMUMAN</Link>
                         </li>
                         <li>
-                          <Link to="/berita">BERITA</Link>
+                          <Link className="link" to="/berita">BERITA</Link>
                         </li>
                         <li>
-                          <Link to="/ppdb">PPDB</Link>
+                          <Link className="link" to="/ppdb">PPDB</Link>
                         </li>
                         <li>
-                          <Link to="/contact">CONTACT</Link>
+                          <Link className="link" to="/contact">CONTACT</Link>
                         </li>
                     </ul>
                 </div>

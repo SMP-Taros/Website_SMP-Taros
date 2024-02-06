@@ -91,7 +91,7 @@ export const semuaKelas = [
     buy: "Beli Kelas",
     delay: "1600",
   },
-  {
+  { 
     id: 3,
     image: KelasImage3,
     star1: "fa-solid fa-star",

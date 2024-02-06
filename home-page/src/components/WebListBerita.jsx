@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import Pagination from './komponen-berita/Pagination';
 import Posts from './komponen-berita/Posts'
 import { listBerita } from '../data/data-berita'
-
+ 
 function WebListBerita() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(8);
- 
+  
   useEffect(() => {
     const fetchPosts = async () => {
       setLoading(true);

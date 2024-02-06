@@ -5,14 +5,14 @@ import WebFooter from '../components/WebFooter'
 import WebListBerita from '../components/WebListBerita'
 
 function NewsPage() {
-    return (
+    return (  
         <div className='news-page'>
             <WebHeader />
             <WebNavbar />
             <div className='berita-atap'>
                 <div className='text-atap'>BERITA</div>
             </div>
-            <WebListBerita />
+            <WebListBerita /> 
             <WebFooter />
         </div>
     )

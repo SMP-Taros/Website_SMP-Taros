@@ -9,7 +9,7 @@
 }
 
 .program-container {
-    width: 1234px;
+    width: 1234px; 
     flex-shrink: 0;
     margin:  auto; /* Centers the container */
     padding: 20px;

@@ -23,7 +23,7 @@ const WebTestiHome = ()=>{
             </Row>
           </Container>
           <div className="carousel-container">
-            <Swiper
+            <Swiper 
                 slidesPerView={1}
                 spaceBetween={50}
                 loop={true}

@@ -15,11 +15,15 @@ function WebCarousel() {
                 <div className="text">SAMBUTAN LAINNYA</div>
             </div>
             <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
                 slidesPerView={1}
-                navigation
-                pagination={{ clickable: true }}
+                spaceBetween={50}
+                loop={true}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[Pagination, Navigation]}
+                className="mySwiper"
             // scrollbar={{ draggable: true }}
             >
                 <SwiperSlide>

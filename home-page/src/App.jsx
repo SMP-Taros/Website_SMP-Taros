@@ -10,9 +10,10 @@ import ProfilPage from "./pages/ProfilPage";
 import InformasiPage from "./pages/InformasiPage";
 import BeritaPage from "./pages/BeritaPage";
 import PpdbPage from "./pages/PpdbPage";
+import PpdbPendaftaran from './pages/PpdbPendaftaran';
 import ContactPage from "./pages/ContactPage";
 import PengumumanPage from "./pages/PengumumanPage";
-
+ 
    
 
 function App() { // Route path adalah konfigurasi untuk ke masing2 halaman
@@ -25,6 +26,7 @@ function App() { // Route path adalah konfigurasi untuk ke masing2 halaman
       <Route path="/informasi" Component={InformasiPage} />
       <Route path="/berita" Component={BeritaPage} />
       <Route path="/ppdb" Component={PpdbPage} />
+      <Route path="/ppdb/pendaftaran" Component={PpdbPendaftaran} />
       <Route path="/pengumuman" Component={PengumumanPage} />
       <Route path="/contact" Component={ContactPage} />
     </Routes>

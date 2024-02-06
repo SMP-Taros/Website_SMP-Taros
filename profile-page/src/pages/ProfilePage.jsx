@@ -12,7 +12,7 @@ function ProfilePage() {
     return (
         <div className="profile-page"> 
             <WebHeader></WebHeader>
-            <WebNavbar></WebNavbar>
+            <WebNavbar></WebNavbar> 
             <WebBanner></WebBanner>
             <WebSambutan></WebSambutan>
             <WebVisi></WebVisi>

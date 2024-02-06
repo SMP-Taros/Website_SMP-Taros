@@ -10,7 +10,7 @@ import WebFooter from '../components/WebFooter';
 
 function ProfilePage() {
     return (
-        <div className="profile-page">
+        <div className="profile-page"> 
             <WebHeader></WebHeader>
             <WebNavbar></WebNavbar>
             <WebBanner></WebBanner>

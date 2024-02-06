@@ -36,14 +36,14 @@ const WebKontakHome = ()=>{
                   <p className="">smpit.taqiyyarosyida@gmail.com</p>
                 </div>
                 <div className="text-wrapper">
-                  <p className="">SMP TAROS</p>
+                <a href="https://www.instagram.com/smpittaqiyyarosyida/">smpittaqiyyarosyida</a>
                 </div>
                 <div className="text-wrapper">
-                  <p className="">SMP TAROS</p>
+                  <a href="https://www.facebook.com/smpit.taqiyyarosyidaa">SMPIT Taqiyya Rosyida </a>
                 </div>
                 <div className="text-wrapper">
-                  <p className="">Syafi'i : 0857 2538 0565 <br />
-                     Kak TaroS : 0896 76000 390</p>
+                  <a className="">Syafi'i : 0857 2538 0565 </a> <br />
+                  <a href="https://api.whatsapp.com/send?phone=%2B6289676000390&data=ARDm88yjMcwJNnAmAEFwiPVb0oIzRYom_boKhqjaYPALCthCWV65TFN-ZsfqNK3tG_a-MaaRlnxJWUh0c4TFaVhGkAENmFQzwe1nFEHwsu2I_nloeYpNVBIrDdrn5YjyPACVo3N2vIk1p1TkNRsH1MM9fQ&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR1269zki1WTP3n87UgF8pbUFOlTbc2dLnA3pwYdS5z0ADdCfLyEaOukww8" >Kak TaroS : 0896 76000 390</a>
                 </div>
               </Col>
             </Row>

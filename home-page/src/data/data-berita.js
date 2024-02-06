@@ -1,5 +1,5 @@
 import Nanni from '../assets/img/testi/contoh.jpg';
-
+ 
 
 const listBerita = () => {
     return [

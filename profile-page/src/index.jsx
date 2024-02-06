@@ -1,6 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client';
 import ProfilePage from './pages/ProfilePage';
+import PPDBPage from './pages/PPDBPage';
 import NewsPage from './pages/NewsPage';
 import './styles/style.css';
 import {
@@ -12,11 +13,15 @@ import NewsDetailPage from './pages/NewsDetailPage';
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <ProfilePage />, 
+        element: <ProfilePage />,
     },
     {
         path: "/berita",
         element: <NewsPage />,
+    },
+    {
+        path: "/ppdb",
+        element: <PPDBPage />,
     },
     {
         path: "/berita/detail-berita/:id",

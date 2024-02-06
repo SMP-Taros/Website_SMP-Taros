@@ -8,36 +8,66 @@
 
 }
 
-.kompetensi-container {
-    width: 934px;
+.program-container {
+    width: 1234px;
     flex-shrink: 0;
     margin:  auto; /* Centers the container */
     padding: 20px;
+    margin-top: 30px;
   }
   
-  .kompetensi-header {
-    font-size: 24px;
+  .program-header {
+    font-size: 32px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 71px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+  }
+
+  .program-container .program-pendukung {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    gap: 55px;
+    margin-bottom: 80px;
+  }
+
+  .program-container .program-isi {
+    height: 100%;
+    width: 360px;
+    border-radius: 28px;
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .program-container .program-isi-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 87px;
+    width: 300px;
+  }
+
+  .program-container .text-box {
+    margin-left: 20px;
+  }
+
+  .program-container .title {
+    font-weight: 600;
+    font-size: 24px;
     font-family: "Roboto", sans-serif;
   }
-  
-  .kompetensi-list {
-    list-style: none; /* Removes default list styling */
-    display: grid;
-    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-    grid-gap: 0.5rem;
-    height: 379px;
-  }
-  
-  .kompetensi-list li {
+
+  .program-container .desc {
+    font-weight: 400;
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-    font-size: 18px;
-    margin-bottom: 10px;
-    height: 50px;
   }
 
   .visi-background {
@@ -100,7 +130,7 @@
   }
 
   .banner-container {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(139, 139, 139, 0.5) 100%), url('../image/banner.jpeg'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(166, 166, 166, 0.745) 100%, #000000 20%), url('/image/banner.jpeg'), #000000 20% / cover no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -577,6 +607,108 @@
     font-style: normal;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+  }
+
+  .bannerbtn-container {
+    height: 822px;
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(166, 166, 166, 0.745) 100%, #000000 20%), url('/image/banner.jpeg'), #000000 20% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .bannerbtn-container .box {
+    width: 808px;
+    height: 381px;
+    margin-left: 46px;
+  }
+
+  .bannerbtn-container .title {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .bannerbtn-container .text {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .bannerbtn-container .text .link {
+    color: #4BB67C;
+    font-weight: 600;
+  }
+
+  .bannerbtn-container .button-form {
+    width: 434px;
+    height: 93px;
+    border: none;
+    border-radius: 40px;
+    color: #FFFBFB;
+    background-color: #1A2226;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 94px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .ppdb-button-container {
+    height: 85px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+
+  .ppdb-button-container .box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .ppdb-button-container .button1 {
+    height: 85px;
+    width: 398px;
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    background-color: #F6C03C;
+    color: #1A2226;
+    border: none;
+  }
+  .ppdb-button-container .button2 {
+    height: 85px;
+    width: 398px;
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    background-color: #4b4b4b;
+    color: #1A2226;
+    border: none;
+  }
+  .ppdb-button-container .button3 {
+    height: 85px;
+    width: 398px;
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    background-color: #4BB67C;
+    color: #1A2226;
+    border: none;
+  }
+
+  .ppdbpage-informasi {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
   }
 
 

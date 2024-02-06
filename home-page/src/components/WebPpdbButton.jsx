@@ -8,7 +8,7 @@ function PpdbButton(){
                 <Link to='/ppdb/pendaftaran'>
                     <button className='button1'>Pendaftaran</button>
                 </Link>
-                <Link to='/ppdb/status-pendaftaran'>
+                <Link to='/ppdb/status-pendaftaran'>  
                     <button className='button2'>Status Pendaftaran</button>
                 </Link>
                 <Link to='/ppdb/pengumuman'>

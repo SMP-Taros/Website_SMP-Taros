@@ -4,12 +4,9 @@ import WebNavbar from '../components/WebNavbar'
 import WebFooter from '../components/WebFooter'
 import WebBannerButton from '../components/WebBannerButton'
 import WebPPDBButton from '../components/WebPPDBButton'
-<<<<<<< HEAD
-  
-=======
-import { Link } from 'react-router-dom'
 
->>>>>>> 238512a6ea8c3495daefa215b6b4e8478e81362e
+import { Link } from 'react-router-dom'
+ 
 function PPDBPage() {
     return (
         <div>
@@ -66,7 +63,7 @@ function PPDBPage() {
             </div>
             <Link to='/ppdb/status-pendaftaran'>
                 <button className='ppdb-button-next'>Lanjut</button>
-            </Link>
+            </Link> 
             <WebFooter />
         </div>
     )

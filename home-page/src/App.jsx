@@ -11,6 +11,8 @@ import InformasiPage from "./pages/InformasiPage";
 import BeritaPage from "./pages/BeritaPage";
 import PpdbPage from "./pages/PpdbPage";
 import PpdbPendaftaran from './pages/PpdbPendaftaran';
+import StatusPendaftaranPage from "./pages/StatusPendaftaranPage";
+import PengumumanPendaftaranPage from "./pages/PengumumanPendaftaranPage";
 import ContactPage from "./pages/ContactPage";
 import PengumumanPage from "./pages/PengumumanPage";
  
@@ -27,6 +29,8 @@ function App() { // Route path adalah konfigurasi untuk ke masing2 halaman
       <Route path="/berita" Component={BeritaPage} />
       <Route path="/ppdb" Component={PpdbPage} />
       <Route path="/ppdb/pendaftaran" Component={PpdbPendaftaran} />
+      <Route path="/ppdb/status-pendaftaran" Component={StatusPendaftaranPage} />
+      <Route path="/ppdb/pengumuman" Component={PengumumanPendaftaranPage} />
       <Route path="/pengumuman" Component={PengumumanPage} />
       <Route path="/contact" Component={ContactPage} />
     </Routes>

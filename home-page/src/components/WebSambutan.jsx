@@ -8,7 +8,7 @@ function WebSambutan() {
                 <h1>SAMBUTAN KEPALA SEKOLAH</h1>
                 <p>Assalamualaikum Warahmatullahi Wabarakatuh</p>
             </div>
-            <img src="" />
+            <img src="" />  
         </div>
     ) 
 }

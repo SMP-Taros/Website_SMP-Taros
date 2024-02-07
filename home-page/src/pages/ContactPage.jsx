@@ -6,7 +6,7 @@ function ContactPage(){
   return (
     <div className="contact-page">
       <WebBannerKontak></WebBannerKontak>
-      <WebKontak></WebKontak>
+      <WebKontak></WebKontak> 
     </div>
   )
 }

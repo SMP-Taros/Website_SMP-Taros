@@ -4,7 +4,7 @@ function WebBannerKurikulum(){
     return (
         <div className='banner-container'>
             <div className='banner-warna'>
-                <h1>KURIKULUM</h1>
+                <h1>INFORMASI SEKOLAH</h1>
             </div>
         </div>
     )

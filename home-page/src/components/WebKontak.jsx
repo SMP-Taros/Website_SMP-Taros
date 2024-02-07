@@ -24,7 +24,7 @@
                 </Row>
             </Container>
             <Container>
-                <Row>
+                <Row> 
                     <Col className="colkon1">
                         <Form noValidate validated={validated} onSubmit={handleSubmit}>
                             <Row className="mb-3">

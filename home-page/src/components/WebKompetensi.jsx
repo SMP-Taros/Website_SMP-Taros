@@ -2,7 +2,7 @@ import React from 'react';
 
 function WebKompetensi() {
     return (
-        <div className="kompetensi-container">
+        <div className="kompetensi-container-profil">
             <h1 className="kompetensi-header">10 STANDAR KOMPETENSI LULUSAN</h1>
             <ul className="kompetensi-list">
                 <li >1. Berwawasan global</li>

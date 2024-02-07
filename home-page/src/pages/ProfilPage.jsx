@@ -13,7 +13,7 @@ function ProfilPage(){
       <WebSambutan></WebSambutan>
       <WebVisi></WebVisi>
       <WebKompetensi></WebKompetensi>
-      <WebProgram></WebProgram>
+      <WebProgram></WebProgram> 
       <WebCarousel></WebCarousel>
     </div>
   )

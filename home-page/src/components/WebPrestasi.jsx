@@ -28,7 +28,7 @@ function WebPrestasi(){
                     spaceBetween={1}
                     loop={true}
                     pagination={{
-                    clickable: true,
+                    clickable: true, 
                     }}  
                     navigation={true}
                     modules={[Pagination, Navigation]}

@@ -26,9 +26,11 @@ function WebKurikulum(){
                                         <img src={Kotak1} alt="kotakkecil" />
                                     </div>
                                     <div className="text">
-                                        1. Hafal 6 Juz Al Qur'an <br/>
-                                        2. Lulus dengan predikat nilai <br/>
-                                        Memuaskan
+                                        <ul className="list-kompetensi">
+                                            <li> 1. Hafal 6 Juz Al Qur'an</li>
+                                            <li> 2. Lulus dengan predikat nilai <br/>
+                                                Memuaskan</li>
+                                        </ul>                                   
                                     </div>
                                 </div>
                             </div>
@@ -42,11 +44,13 @@ function WebKurikulum(){
                                         <img src={Kotak1} alt="kotakkecil" />
                                     </div>
                                     <div className="text">
-                                        1. Berwawasan global <br/>
-                                        2. Beraqidah yang lurus<br/>
-                                        3. Berakhlak mulia<br/>
-                                        4. Berjiwa sosial dan mandiri<br/>
-                                        5. Memiliki semangat Patriotisme dan Nasionalisme
+                                        <ul className="list-kompetensi">
+                                            <li> 1. Berwawasan global</li>
+                                            <li> 2. Beraqidah yang lurus</li>
+                                            <li> 3. Berakhlak mulia</li>
+                                            <li> 4. Berjiwa sosial dan mandiri</li>
+                                            <li> 5. Memiliki semangat Patriotisme dan Nasionalisme</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -60,13 +64,16 @@ function WebKurikulum(){
                                         <img src={Kotak1} alt="kotakkecil" />
                                     </div>
                                     <div className="text">
-                                        1. Terampil bidang Informasi, <br/>
-                                            Komunikasi, dan Teknologi<br/>
-                                        2. Memiliki kemampuan <br/>
-                                            Leadership dan <br/>
-                                        Entrepreneurship<br/>
-                                        3. Menguasai Jurnalistik dan<br/>
-                                            Public Speaking
+                                        <ul className="list-kompetensi">
+                                            <li> 1. Terampil bidang Informasi, <br/>
+                                                Komunikasi, dan Teknologi </li>
+                                            <li> 2. Memiliki kemampuan <br/>
+                                                Leadership dan <br/>
+                                            Entrepreneurship</li>
+                                            <li> 3. Menguasai Jurnalistik dan</li>
+                                                Public Speaking
+                                        </ul>
+                                        
                                     </div>
                                 </div>
                             </div>

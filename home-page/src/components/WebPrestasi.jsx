@@ -24,12 +24,12 @@ function WebPrestasi(){
             <Row>
             <div className="carousel-prestasi-container">
                 <Swiper
-                    slidesPerView={1}
-                    spaceBetween={50}
+                    slidesPerView={2}
+                    spaceBetween={1}
                     loop={true}
                     pagination={{
                     clickable: true,
-                    }}
+                    }}  
                     navigation={true}
                     modules={[Pagination, Navigation]}
                     className="mySwiper"

@@ -4,6 +4,7 @@ import WebKurikulum from "../components/WebKurikulum";
 import WebPrestasi from "../components/WebPrestasi";
 import WebEkskul from "../components/WebEkskul";
 import WebAkreditasi from "../components/WebAkreditasi";
+import WebSarPras from "../components/WebSarPras";
 
 function InformasiPage(){
   return (
@@ -12,7 +13,8 @@ function InformasiPage(){
       <WebKurikulum></WebKurikulum>
       <WebPrestasi></WebPrestasi>
       <WebEkskul></WebEkskul>
-      <WebAkreditasi></WebAkreditasi>
+      <WebAkreditasi></WebAkreditasi> 
+      <WebSarPras></WebSarPras>
     </div>
   )
 }

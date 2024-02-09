@@ -1,12 +1,16 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client';
 
+import HomePage from './pages/HomePage';
 import ProfilePage from './pages/ProfilePage';
-import PPDBPage from './pages/PPDBPage';
+import InfoPendaftaranPage from './pages/InfoPendaftaranPage';
 import NewsPage from './pages/NewsPage';
 import NewsDetailPage from './pages/NewsDetailPage';
 import StatusPendaftaranPage from './pages/StatusPendaftaranPage';
 import PengumumanPage from './pages/PengumumanPage';
+import ContactPage from './pages/ContactPage';
+import PpdbPage from './pages/PPDBPage';
+import InformasiSekolahPage from './pages/InformasiSekolahPage';
 
 import './styles/style.css';
 import {
@@ -18,7 +22,15 @@ import {
 const router = createBrowserRouter([
     {
         path: "/",
+        element: <HomePage />,
+    },
+    {
+        path: "/profil",
         element: <ProfilePage />,
+    },
+    {
+        path: "/informasi",
+        element: <InformasiSekolahPage />,
     },
     {
         path: "/berita",
@@ -30,7 +42,11 @@ const router = createBrowserRouter([
     },
     {
         path: "/ppdb",
-        element: <PPDBPage />,
+        element: <PpdbPage />,
+    },
+    {
+        path: "/ppdb/informasi-pendaftaran",
+        element: <InfoPendaftaranPage />,
     },
     {
         path: "/ppdb/status-pendaftaran",
@@ -39,6 +55,10 @@ const router = createBrowserRouter([
     {
         path: "/ppdb/pengumuman",
         element: <PengumumanPage />,
+    },
+    {
+        path: "/contact",
+        element: <ContactPage />,
     },
 ]);
 

@@ -862,4 +862,842 @@
     margin: 5% 0% 0% 62%;
   }
 
+  .banner-kontak-container {
+    background: linear-gradient(0deg, rgba(166, 166, 166, 0.745) 100%, #000000 20%), url('/image/banner.jpeg'), #000000 20% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+  } 
+  
+  .banner-kontak-warna h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 
+  
+.kontak2{
+  margin-top: 20px;
+  margin-bottom: 80px;
+  background-color: var(--navbar-color);
+}
+
+.contact-page .kontak2 .kontak2-judul{
+  margin-bottom: 80px;
+}
+
+.kontak2 .colkon2{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.kontak2 .colkon2 .info-kontak1{
+  margin-bottom: 50px;
+}
+
+.kontak2 .colkon2 .info-kontak1 p,
+.kontak2 .colkon2 .info-kontak1 a{
+  font-weight: 600px;
+  font-size: 20px;
+}
+
+.kontak2 .colkon2 .info-kontak2 p,
+.kontak2 .colkon2 .info-kontak2 a{
+  font-weight: 600px;
+  font-size: 20px;
+}
+
+.kontak2 .kontak-container {
+  margin-top: -20px;
+}
+
+
+.ppdb-page2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.ppdbpage-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.ppdbpage-main-container .orange-line {
+    width: 100%;
+    height: 6px;
+    background-color: #F6C03C;
+    border-radius: 5px;
+}
+
+.ppdbpage-main-isi {
+  width: 1150px;
+  height: 1400px;
+  background-color: rgba(232, 232, 232, 0.4300000071525574);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ppdbpage-main-container .text {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin: 20px 0px 0px 50px;
+}
+
+.ppdbpage-main-container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px; /* Mengubah properti ini */
+  height: 800px;
+  margin: 0 auto;
+}
+
+/* ----------- */
+.ppdbpage-main-container .text {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.ppdbpage-main-container .text .link {
+  color: #4BB67C;
+  font-weight: 600;
+}
+
+.ppdbpage-main-container .button-form {
+  width: 400px;
+  height: 75px;
+  border: none;
+  border-radius: 40px;
+  color: #FFFBFB;
+  background-color: #1A2226;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ppdb-main-button-next {
+  width: 151px;
+  height: 65px;
+  background-color: #F6C03C;
+  font-size: 33px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 5px;
+  margin: 0px 0px 50px 1180px;
+}
+
+.banner-ppdb-container {
+  background: linear-gradient(0deg, rgba(166, 166, 166, 0.745) 100%, #000000 20%), url('/image/banner.jpeg'), #000000 20% / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+}
+
+.banner-ppdb-warna h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+/* Style Homepage Header */
+.header-home-container {
+  margin-top: 0px;
+  /* background-image: url("/src/assets/img/smpit_taros.jpg"); */
+  background-color: #D9D9D9;
+  height: 660px;
+  flex-shrink: 0;
+}
+
+.header-home-container .header-home-isi {
+  height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-home-container .header-home-isi .header-home-box {
+  width: 100%;
+}
+
+.header-home-container .header-home-isi .header-home-box img {
+  width: 100%;
+}
+
+/* A. 1. Style Homepage Profil Sekolah */
+.homepage .profil{
+  background-color: #ffffff; /* --navbar-color: #ffffff; */
+  padding-bottom: 100px;
+  margin-top: -80px;
+}
+
+.homepage .profil .row:nth-child(1){
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.homepage .profil .row:nth-child(1) h1{
+  color: #231942; /* --color-text: #231942; */
+}
+
+.homepage .profil .row:nth-child(2) img{
+  width: 100%; /* Mengurangi ukuran yayasanImage */
+}
+
+.homepage .profil .row:nth-child(2) p{
+  font-size: 16px;
+  font-weight: 50px;
+
+}
+
+
+/* A. 2. Awal Style Homepage Berita Terbaru */
+.homepage .berita{
+  background-color:#ffffff;
+  padding-bottom: 100px;
+  margin-top: -80px;
+}
+
+.homepage .berita .row:nth-child(1){
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.homepage .berita .row:nth-child(1) p{
+  color: #231942;
+  font-size: 16px;
+  font-weight: 50px;
+}
+
+.homepage .berita .row:nth-child(2){
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+.homepage .berita .row:nth-child(2) img{
+  height: 300px;
+  width: 200px;
+} 
+
+.homepage .berita .row:nth-child(2) .col{
+background-color: #fff;
+gap: 15px;
+padding-inline: 10px;
+
+}
+
+.homepage .berita .row:nth-child(2) .clock{
+color: #000000;
+font-weight: 70px;
+}
+
+.berita-btn {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.berita-bt {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* A. 2. Style Homepage Berita Terbaru */
+
+
+/* A. 3. Awal Style Homepage - PPDB */
+.ppdb-background {
+  background-color: #F7DA24;
+}
+
+.ppdb-container {
+  width: 750px;
+  height: 100px;
+  flex-shrink: 0;
+  margin: 30px; 
+  padding: 10px;
+}
+
+.ppdb-container p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.ppdb-header {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+/* A. 3. Akhir Style Homepage - PPDB */
+
+
+/* A. 4. Awal Style Homepage - Informasi */
+.homepage .informasi{
+  background-color:var(--navbar-color);
+  padding-bottom: 100px;
+}
+
+.homepage .informasi .row:nth-child(1){
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+.homepage .informasi .fasilitas{
+  background-color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+}
+
+
+.homepage .informasi .fasilitas-row .col1 .img-wrapper,
+.homepage .informasi .fasilitas-row .col2 .img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Untuk memastikan h5 tetap terpusat jika lebih panjang dari gambar */
+  position: relative; /* Untuk positioning absolut h5 */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  margin: 0;
+  margin-left: 140px;
+  margin-right: 130px;
+  margin-top: 0px;
+}
+
+.homepage .informasi .fasilitas-row .col1 .img-wrapper h5,
+.homepage .informasi .fasilitas-row .col2 .img-wrapper h5 {
+  margin-top: 20px;
+  top: 50%;
+  left: 50%;
+}
+
+.ekskul{
+  margin-top: -80px;
+}
+
+.ekskul-row {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.eksul-list1 {
+  margin-top: 5%;
+ 
+}
+
+.ekskul-list1 li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 0px; /* Adjust space for custom bullet */
+}
+
+.eksul-list2 {
+  margin-top: 5%;
+  list-style: none; /* Removes default list styling */
+  padding: 10;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.ekskul-list2 li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 0px; /* Adjust space for custom bullet */
+}
+
+.ekskul-row .col3 {
+  margin-left: 250px;
+  
+}
+
+.ekskul-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.ekskul-bt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* A. 4. Akhir Style Homepage - Informasi */
+
+
+/* A. 5. Akhir Style Homepage - PENGUMUMAN */
+.pengumuman{
+  margin-top: -80px;
+}
+
+.pengumuman-card{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pengumuman-card .pengumuman-container{
+  width: 30%;
+  height: 40%;
+}
+
+.event2{
+  margin-top: 50px;
+}
+
+.event3{
+  margin-top: 50px;
+}
+
+.event-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-bt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* A. 5. Akhir Style Homepage - PENGUMUMAN */
+
+.testimoni{
+  margin-top: 80px;
+  background-color: #ffffff;
+}
+
+.homepage .testimoni .testi-judul{
+  margin-bottom: 80px;
+}
+
+
+/* C. AWAL STYLE INFORMASI PAGE */
+.kurikulum-kompetensi {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.kurikulum-kompetensi .kurikulum-kompetensi-container .penjelasan-kompetensi .text{
+  font-weight: 520;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+/* ---- Web banner kompetensi ---- */
+.kompetensi-container {
+  height: 85px;
+  margin-top: 170px;
+  margin-bottom: 200px;
+}
+
+.kompetensi-container .box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.kompetensi-container .kompetensi1 {
+  height: 350px;
+  width: 355px;
+  background-color: #F7DA24;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.kompetensi-container .kompetensi2 {
+  height: 350px;
+  width: 355px;
+  background-color: #4BB67C;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.kompetensi-container .kompetensi3 {
+  height: 350px;
+  width: 355px;
+  background-color: #F6C03C;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.kompetensi-container .judul{
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 50px;
+  color: #1A2226;
+  margin-left: 50px;
+}
+
+.kompetensi-container .kotak-kecil{
+  margin-left: 50px;
+}
+
+.kompetensi-container .text{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1A2226;
+  margin-top: 10px;
+  margin-left:20px;
+} 
+
+.kompetensi-container .kompetensi1 .text .list-kompetensi {
+  list-style: none; /* Removes default list styling */
+}
+.kompetensi-container .kompetensi2 .text .list-kompetensi {
+  list-style: none; /* Removes default list styling */
+}
+.kompetensi-container .kompetensi3 .text .list-kompetensi {
+  list-style: none; /* Removes default list styling */
+}
+/* ---- Web banner kompetensi ---- */
+
+/* ---- Web CAROUSEL PRESTASI ---- */
+.prestasi-container {
+  background-color: #9F9B9B;
+  height: 700px;
+  flex-shrink: 0;
+  margin-bottom: 80px;
+}
+
+.prestasi-container .judul .text-wrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  margin-top: 60px;
+}
+
+.prestasi-container .judul .text {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  color: #FFF;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+
+.carousel-prestasi-container .carousel-prestasi-isi {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.carousel-prestasi-container .carousel-prestasi-isi .carousel-prestasi-box {
+  width: 70%;
+  height: 80%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.carousel-prestasi-container .carousel-prestasi-isi .pres1{
+  height: 450px;
+  width: 450px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin-top: 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.carousel-prestasi-container .carousel-prestasi-isi .pres1 .text{
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.carousel-prestasi-container .carousel-prestasi-isi .pres1 .img-container {
+  width: 405px;
+  height: 240px;
+  flex-shrink: 0;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.carousel-prestasi-container .carousel-prestasi-isi .pres1 .btn{
+  margin-top: 20px;
+}
+
+
+/* ---- Web CAROUSEL PRESTASI ---- */
+
+/* ---- Web EKSTRAKULIKULER ---- */
+
+.ekskulz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ekskul-container {
+  /* background-color: #9F9B9B; */
+  height: 500px;
+  width: 1280px;
+  flex-shrink: 0;
+  margin-bottom: 50px;
+}
+
+.ekskul-container .title {
+  text-align: center;
+  letter-spacing: 2.8px;
+  font-weight: 600;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.ekskul-container .box {
+  height: 372px;
+  width: 100%;
+  display: flex;
+}
+
+.ekskul-container .box-1 {
+  height: 100%;
+  width: 33%;
+  position: relative;
+}
+
+.ekskul-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  filter: grayscale(10%) brightness(150%);
+}
+
+.ekskul-container .text {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.ekskul-container .text:hover {
+  opacity: 1;
+}
+
+.ekskul-container .text > *{
+  transform:translateY(25px);
+  transition: transform 0.6s;
+}
+
+.ekskul-container .text:hover > *{
+  transform: translateY(0px);
+}
+
+.ekskul-container .title-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.ekskul-container .box-2 {
+  height: 100%;
+  width: 34%;
+  
+}
+.ekskul-container .box-2a {
+  width: 100%;
+  height: 33%;
+  position: relative;
+}
+.ekskul-container .box-2b {
+  width: 100%;
+  height: 34%;
+  position: relative;
+}
+
+.ekskul-container .box-3 {
+  height: 100%;
+  width: 33%;
+}
+.ekskul-container .box-3a {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.ekskul-container .desc {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ---- Web EKSTRAKULIKULER ---- */
+
+/* ---- Web AKREDITASI ---- */
+.akreditasi-container{
+  margin-top: -140px; 
+  margin-bottom: 80px;
+  background-image: url(./akreditasi.svg);
+  width: 100%;
+  height: 460px;
+}
+
+.akreditasi-container .text{
+  margin-top: 120px;
+  margin-left: 120px;
+  position: absolute;
+}
+
+.akreditasi-container .text h2{
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.akreditasi-container .text p{
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.akreditasi-container .btn{
+  margin-top: 190px;
+  margin-left: 340px;
+}
+/* ---- Web AKREDITASI ---- */
+
+/* ---- Web SARPRAS ---- */
+.sarpras-container {
+  /* background-color: #9F9B9B; */
+  height: 800px;
+  flex-shrink: 0;
+  margin-bottom: 80px;
+}
+
+.sarpras-container .judul .text-wrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  margin-top: 60px;
+}
+
+.sarpras-container .judul .text {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  color: #000000;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.sarpras-container .text1{
+  margin-top: 60px;
+  margin-left: 130px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+
+.sarpras-container .text2{
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+
+.sarpras-container .text2 .list-ruang{
+  list-style: none; /* Removes default list styling */
+}
+
+.sarpras-container .text2 .list-ruang li {
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.sarpras-container .image-container{
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -240px;
+}
+
+.sarpras-container .image-container img{
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+/* ---- Web SARPRAS ---- */
+
+/* C. AKHIR STYLE INFORMASI PAGE */

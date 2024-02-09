@@ -1,72 +1,54 @@
-import React from 'react'
-import WebHeader from '../components/WebHeader'
-import WebNavbar from '../components/WebNavbar'
-import WebFooter from '../components/WebFooter'
-import WebBannerButton from '../components/WebBannerButton'
-import WebPPDBButton from '../components/WebPPDBButton'
+import React from "react";
 
-import { Link } from 'react-router-dom'
- 
-function PPDBPage() {
+import WebBannerPpdb from "../components/WebBannerPpdb";
+import WebPPDBButton from "../components/WebPPDBButton";
+import WebHeader from "../components/WebHeader";
+import WebNavbar from "../components/WebNavbar";
+import WebFooter from "../components/WebFooter";
+
+import Brosur from "/image/brosurPpdb.png";
+
+import { Link } from "react-router-dom";
+
+function PpdbPage() {
+    const LinkForm = () => {
+        const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdUtl_e_reepnFwzTDJRf_UMUosbnOM4OEJO7ZRDqQXmE0HqA/viewform';
+        window.open(formURL, '_blank');
+    };
     return (
-        <div>
-            <WebHeader /> 
+        <div className="ppdb-page">
+            <WebHeader />
             <WebNavbar />
-            <WebBannerButton />
-            <WebPPDBButton />
-            <div className='ppdbpage-informasi'>Informasi Pendaftaran</div>
-            <div className='ppdbpage-container'>
-                <div className='ppdbpage-isi'>
-                    <div className='box'>
-                        <div>Biaya Daftar Ulang:</div>
-                    </div>
+            <WebBannerPpdb></WebBannerPpdb>
+            <WebPPDBButton></WebPPDBButton>
+            <div className='ppdb-page2'>SELAMAT DATANG</div>
+            <div className='ppdbpage-main-container'>
+                <div className='ppdbpage-main-isi'>
+                    <div className='orange-line' />
                     <div className='text'>
-                        Putra Rp 8.600.000,- <br />
-                        Putri Rp 8.800.000,- <br />
-                        Biaya di atas meliputi Seragam, buku, biaya pengembangan dan kegiatan. <br />
-                        Biaya di atas belum termasuk potongan biaya khusus gelombang istimewa.
+                        Selamat Datang di Penerimaan Peserta Didik Baru <br />
+                        SMP IT Taqiyya Rosyida Kartasura<br />
+                        Tahun Pelajaran 2024 / 2025 telah dibuka.<br />
+                        Segera isi formulir pendaftaran dengan lengkap.<br />
+                        Segera isi formulir pendaftaran dengan lengkap.
+                        Info lebih lanjut <Link className='link' to="/contact">Hubungi Kami</Link>
                     </div>
-                    <div className='box'>
-                        <div>Potongan Biaya:</div>
-                    </div>
-                    <div className='text'>
-                        1. Potongan periode Agustus - September 2022: s.d Rp. 1.500.00,- <br />
-                        2. Potongan periode November - Desember 2022: s.d Rp. 1.000.00,- <br />
-                        3. Potongan periode Januari - Februari 2022: s.d Rp. 500.000,- <br />
-                        4. Beasiswa Yatim dan Dhuafa Berprestasi
-                    </div>
-                    <div className='box'>
-                        <div>Syarat:</div>
-                    </div>
-                    <div className='text'>
-                        1. Mengisi Formulir <br />
-                        2. Membayar Biaya Pendaftaran sebesar Rp. 250.000,- <br />
-                        3. Pas Foto 3x4 berseragam sekolah (3 lembar) <br />
-                        4. Fotocopy Rapor kelas 4,5 <br />
-                        5. Fotocopy Nomor Induk Siswa Nasional (NISN) <br />
-                        6. Fotocopy Kartu Keluarga (KK)
-                    </div>
-                    <div className='box'>
-                        <div>PPD 2023/2024</div>
-                    </div>
-                    <div className='text'>
-                        Kuota Putra: 32 <br />
-                        Kuota Putri: 31 <br /> <br />
-                        1. Mengisi Formulir <br />
-                        2. Membayar Biaya Pendaftaran sebesar Rp. 250.000,- <br />
-                        3. Pas Foto 3x4 berseragam sekolah (3 lembar) <br />
-                        4. Fotocopy Rapor kelas 4,5 <br />
-                        5. Fotocopy Nomor Induk Siswa Nasional (NISN) <br />
-                        6. Fotocopy Kartu Keluarga (KK)
+                    <button onClick={LinkForm} className='button-form'>
+                        ISI FORMULIR KLIK DISINI
+                    </button>
+                    <div className="img ">
+                        <img src={Brosur} alt="brosurPpdb" />
                     </div>
                 </div>
             </div>
-            <Link to='/ppdb/status-pendaftaran'>
-                <button className='ppdb-button-next'>Lanjut</button>
-            </Link> 
+            <div className="ppdb-lanjut">
+                <Link to='/ppdb/informasi-pendaftaran'>
+                    <button className='ppdb-main-button-next'>Lanjut</button>
+                </Link>
+            </div>
             <WebFooter />
         </div>
     )
 }
 
-export default PPDBPage;
+export default PpdbPage;

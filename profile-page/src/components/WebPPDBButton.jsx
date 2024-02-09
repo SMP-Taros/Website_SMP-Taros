@@ -5,7 +5,7 @@ function WebPPDBButton() {
     return (
         <div className='ppdb-button-container'>
             <div className='box'>
-                <Link to='/ppdb/pendaftaran'>
+                <Link to='/ppdb/informasi-pendaftaran'>
                     <button className='button1'>Pendaftaran</button>
                 </Link>
                 <Link to='/ppdb/status-pendaftaran'>

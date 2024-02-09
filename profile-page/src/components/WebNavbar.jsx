@@ -1,5 +1,5 @@
- import React, { useState } from "react";
- import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function WebNavbar() {
 
@@ -18,10 +18,10 @@ function WebNavbar() {
                 <div className="navbar-list">
                     <ul>
                         <li>
-                            <Link className="link" to="/home">HOME</Link>
+                            <Link className="link" to="/">HOME</Link>
                         </li>
                         <li>
-                            <Link className="link" to="/">PROFIL</Link>
+                            <Link className="link" to="/profil">PROFIL</Link>
                         </li>
                         <li>
                             <Link className="link" to="/informasi">INFORMASI</Link>

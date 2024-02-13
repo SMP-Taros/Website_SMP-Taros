@@ -1752,3 +1752,29 @@ align-items: center;
 /* ---- Web SARPRAS ---- */
 
 /* C. AKHIR STYLE INFORMASI PAGE */
+
+/* InformasiKaldik */
+
+.kalender-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 40px;
+}
+
+.kalender-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kalender-container .kalender-viewer {
+  width: 1062px;
+  height: 550px;
+  flex-shrink: 1;
+}
+
+.kalender .line {
+  margin-top: 80px;
+}

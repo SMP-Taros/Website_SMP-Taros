@@ -29,9 +29,9 @@ function WebNavbar() {
                             <div className="link" onClick={() => { setOpen(!open) }} >INFORMASI&#9660;</div>
                             <div className={`navbar-dropdown ${open ? 'active' : 'inactive'}`}>
                                 <ul className="list">
-                                    <Link className="sub-link" to="/informasi">SEKOLAH</Link>
+                                    <Link className="sub-link" to="/informasi-sekolah">SEKOLAH</Link>
                                     <div></div>
-                                    <Link className="sub-link" to="/informasi">KALENDER</Link>
+                                    <Link className="sub-link" to="/informasi-kalender">KALENDER</Link>
                                 </ul>
                             </div>
                         </li>

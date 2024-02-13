@@ -1,4 +1,5 @@
 import React from 'react'
+import WebHeader from '../components/WebHeader'
 import WebNavbar from '../components/WebNavbar'
 import WebBannerKurikulum from '../components/komponen-informasi/WebBannerKurikulum'
 import WebKurikulum from '../components/komponen-informasi/WebKurikulum'
@@ -10,6 +11,7 @@ import WebSarPras from '../components/komponen-informasi/WebSarPras'
 function InformasiSekolahPage() {
     return (
         <div className='info-kurkum'>
+            <WebHeader />
             <WebNavbar />
             <WebBannerKurikulum />
             <WebKurikulum />

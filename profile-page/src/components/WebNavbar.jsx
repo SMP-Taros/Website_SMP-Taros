@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 function WebNavbar() {
 
+    const [open, setOpen] = useState(false);
+
     const [active, setactivate] = useState(false);
     window.addEventListener("scroll", function () {
         if (this.window.scrollY > 150) {
@@ -16,15 +18,22 @@ function WebNavbar() {
         <div className="navbar-container">
             <header className={active ? "activenav" : "nav"}>
                 <div className="navbar-list">
-                    <ul>
+                    <ul className="menu">
                         <li>
                             <Link className="link" to="/">HOME</Link>
                         </li>
                         <li>
                             <Link className="link" to="/profil">PROFIL</Link>
                         </li>
-                        <li>
-                            <Link className="link" to="/informasi">INFORMASI</Link>
+                        <li className="navbar-menu">
+                            <div className="link" onClick={() => { setOpen(!open) }} >INFORMASI&#9660;</div>
+                            <div className={`navbar-dropdown ${open ? 'active' : 'inactive'}`}>
+                                <ul className="list">
+                                    <Link className="sub-link" to="/informasi">SEKOLAH</Link>
+                                    <div></div>
+                                    <Link className="sub-link" to="/informasi">KALENDER</Link>
+                                </ul>
+                            </div>
                         </li>
                         <li>
                             <Link className="link" to="/pengumuman">PENGUMUMAN</Link>

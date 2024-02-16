@@ -2,6 +2,7 @@ const listBerita = () => {
     return [
         {
             id: 1,
+            kategori: "BERITA",
             image: "/image/contoh.jpg",
             title: "INDEN PPDB TAHUN AJARAN 2024/2025",
             date: "9 Agustus 2023",
@@ -9,6 +10,7 @@ const listBerita = () => {
         },
         {
             id: 2,
+            kategori:"PENGUMUMAN",
             image: "/image/contoh.jpg",
             title: "BROSUR PPDB 2023 2024",
             date: "3 September 2022",

@@ -9,7 +9,7 @@ function WebListBerita() {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(8);
   
-  useEffect(() => {
+  useEffect(() => { 
     const fetchPosts = async () => {
       setLoading(true);
       setPosts(listBerita);
@@ -34,7 +34,7 @@ function WebListBerita() {
         postsPerPage={postsPerPage}
         totalPosts={posts.length}
         paginate={paginate}
-      />
+      /> 
     </div>
   )
 }

@@ -10,13 +10,13 @@ const WebPengumumanHome = ()=>{
             <Col>
             <h1 className='text-center fw-bold'>PENGUMUMAN</h1>
             </Col>
-          </Row>
+          </Row> 
         </Container>
 
         <div className='pengumuman-card'>
           <div className='pengumuman-container'>
             <Container>
-              <Row className="event1">
+              <Row className="event1"> 
                 <Col>
                   <Card
                     style={{
@@ -32,10 +32,24 @@ const WebPengumumanHome = ()=>{
                   <CardTitle className="text-center mt-4"><h4>NEXT EVENT</h4></CardTitle>
                       <CardText className="text-center">
                       </CardText>
-                </Col>
+                  <Card
+                    style={{
+                      width: "24rem",
+                      height: "20rem",
+                      borderRadius: "5px",
+                      background: "#D9D9D9",
+                    }}
+                  >
+                    <CardBody>
+                    </CardBody>
+                  </Card>
+                  <CardTitle className="text-center mt-4"><h4>NEXT EVENT(2)</h4></CardTitle>
+                      <CardText className="text-center">
+                      </CardText>
+                </Col> 
               </Row>
 
-              <Row className="event2">
+              {/* <Row className="event2">
                 <Col>
                   <Card
                     style={{
@@ -52,9 +66,9 @@ const WebPengumumanHome = ()=>{
                       <CardText className="text-center">
                       </CardText>
                 </Col>
-              </Row>
+              </Row> */}
 
-              <Row className="event3">
+              {/* <Row className="event3">
                 <Col>
                   <Card className="center"
                     style={{
@@ -71,7 +85,7 @@ const WebPengumumanHome = ()=>{
                       <CardText className="text-center">
                       </CardText>
                 </Col>
-              </Row>
+              </Row> */}
             </Container>
           </div> 
         </div>

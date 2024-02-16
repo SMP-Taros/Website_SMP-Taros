@@ -1,26 +1,60 @@
 import React from "react";
-import { Row } from "react-bootstrap";
+import Seni from '../assets/img/informasi-ekskul/seni-keterampilan.png';
+import Futsal from '../assets/img/informasi-ekskul/futsal.png'
+import Karya from '../assets/img/informasi-ekskul/karya-ilmiah.png'
+import MTQ from '../assets/img/informasi-ekskul/mtq.png'
+import Pramuka from '../assets/img/informasi-ekskul/pramuka.png'
+import Komunikasi from '../assets/img/informasi-ekskul/komunikasi.png'
 
-import Ekskul from "../assets/img/ekskul/ekskul.svg"
+ 
 function WebEkskul(){  
     return(
-        <div className="ekskul-container">
-            <Row>
-                <div className="judul">
-                        <div className="text-wrapper">
-                            <div className="text">
-                                EKSTRAKURIKULER
-                            </div> 
+        <div className='ekskulz'>
+            <div className='ekskul-container'>
+                <div className='title'>EKSTRAKURIKULER</div>
+                <div className='box'>
+                    <div className='box-1'>
+                        <img src={Seni} />
+                        <div className='text'>
+                            <div className='title-text'>Seni dan Keterampilan</div>
                         </div>
+                    </div>
+                    <div className='box-2'>
+                        <div className='box-2a'>
+                            <img src={MTQ} />
+                            <div className='text'>
+                                <div className='title-text'>MTQ</div>
+                            </div>
+                        </div>
+                        <div className='box-2b'>
+                            <img src={Futsal} />
+                            <div className='text'>
+                                <div className='title-text'>Futsal</div>
+                            </div>
+                        </div>
+                        <div className='box-2a'>
+                            <img src={Karya} />
+                            <div className='text'>
+                                <div className='title-text'>Karya Ilmiah Remaja</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='box-3'>
+                        <div className='box-3a'>
+                            <img src={Komunikasi} />
+                            <div className='text'>
+                                <div className='title-text'>Komunikasi</div>
+                            </div>
+                        </div>
+                        <div className='box-3a'>
+                            <img src={Pramuka} />
+                            <div className='text'>
+                                <div className='title-text'>Pramuka SIT</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </Row>
-            <Row>
-                <div className="image-container">
-                    <img src={Ekskul} alt="" />
-                </div>
-            </Row>
-            <div className="nb">
-                * Gambar hanya pemanis
+                <div className='desc'>* Gambar hanya ilustrasi</div>
             </div>
         </div>
     )

@@ -1,10 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 function WebNavbar() {
 
     const [open, setOpen] = useState(false);
 
+    let menuRef = useRef();
+
+    useEffect(() => {
+        let handler = (e) => {
+            if (!menuRef.current.contains(e.target)) {
+                setOpen(false);
+                console.log(menuRef.current);
+            }
+        };
+
+        document.addEventListener("mousedown", handler);
+
+        return () => {
+            document.removeEventListener("mousedown", handler);
+        }
+    });
     const [active, setactivate] = useState(false);
     window.addEventListener("scroll", function () {
         if (this.window.scrollY > 150) {
@@ -25,7 +41,7 @@ function WebNavbar() {
                         <li>
                             <Link className="link" to="/profil">PROFIL</Link>
                         </li>
-                        <li className="navbar-menu">
+                        <li className="navbar-menu" ref={menuRef}>
                             <div className="link" onClick={() => { setOpen(!open) }} >INFORMASI&#9660;</div>
                             <div className={`navbar-dropdown ${open ? 'active' : 'inactive'}`}>
                                 <ul className="list">
@@ -54,7 +70,7 @@ function WebNavbar() {
                 </div>
             </header>
         </div>
-    )
+    );
 }
 
 export default WebNavbar;

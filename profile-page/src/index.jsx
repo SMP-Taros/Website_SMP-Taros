@@ -1,6 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client';
 
+
 import HomePage from './pages/HomePage';
 import ProfilePage from './pages/ProfilePage';
 import InfoPendaftaranPage from './pages/InfoPendaftaranPage';
@@ -11,6 +12,7 @@ import PengumumanPage from './pages/PengumumanPage';
 import ContactPage from './pages/ContactPage';
 import PpdbPage from './pages/PPDBPage';
 import InformasiSekolahPage from './pages/InformasiSekolahPage';
+import InformasiKaldikPage from './pages/InformasiKaldikPage';
 
 import './styles/style.css';
 import {
@@ -29,8 +31,12 @@ const router = createBrowserRouter([
         element: <ProfilePage />,
     },
     {
-        path: "/informasi",
+        path: "/informasi-sekolah",
         element: <InformasiSekolahPage />,
+    },
+    {
+        path: "/informasi-kalender",
+        element: <InformasiKaldikPage />,
     },
     {
         path: "/berita",

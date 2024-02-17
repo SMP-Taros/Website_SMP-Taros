@@ -20,4 +20,4 @@ function WebTerbaru({ posts }) {
     )
 }
 
-export default WebTerbaru;
+export default WebTerbaru; 

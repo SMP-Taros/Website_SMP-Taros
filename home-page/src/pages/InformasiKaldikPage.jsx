@@ -1,14 +1,10 @@
 import React, { useState } from 'react'
-import WebHeader from '../components/WebHeader'
-import WebNavbar from '../components/WebNavbar'
-import WebFooter from '../components/WebFooter'
- 
-function InformasiKaldikPage() { 
 
-  return (
+function InformasiKaldikPage() {
+
+  return ( 
     <div className='kalender'>
-      <WebHeader />
-      <WebNavbar />
+
       <div className='banner-container'>
         <div className='banner-warna'>
           <h1>KALENDER AKADEMIK</h1>
@@ -23,9 +19,8 @@ function InformasiKaldikPage() {
         
       </div>
       <div className='line' />
-      <WebFooter />
     </div>
   )
 }
 
-export default InformasiKaldikPage
+export default InformasiKaldikPage;

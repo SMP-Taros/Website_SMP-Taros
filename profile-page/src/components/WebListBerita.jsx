@@ -4,7 +4,7 @@ import Posts from './komponen-berita/Posts'
 import WebTerbaru from './WebTerbaru';
 import { listBerita } from '../data/data-berita'
 import Search from '/image/search.svg'
-
+ 
 function WebListBerita() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -14,7 +14,7 @@ function WebListBerita() {
 
   const [searchVal, setSearchVal] = useState("");
   const [artikel, setArtikel] = useState("");
-
+ 
   function handleSearchClick(e) {
     if (searchVal === "") {
       setArtikel(listBerita);
@@ -71,7 +71,7 @@ function WebListBerita() {
         </div>
         <WebTerbaru posts={currentSide} />
       </div>
-
+ 
     </div>
   )
 }

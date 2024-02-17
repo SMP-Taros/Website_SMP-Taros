@@ -57,7 +57,7 @@ function PpdbPendaftaran(){
                 </div>
             </div>
             <Link to='/ppdb/status-pendaftaran'>
-                <button className='ppdb-button-next'>Next</button>
+                <button className='ppdb-button-next'>Lanjut</button>
             </Link>
     </div>
     ) 

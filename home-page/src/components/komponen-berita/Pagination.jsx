@@ -24,4 +24,4 @@ function Pagination({ postsPerPage, totalPosts, paginate }) {
   )
 }
 
-export default Pagination
+export default Pagination;

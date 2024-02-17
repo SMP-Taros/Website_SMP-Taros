@@ -15,7 +15,7 @@ function PpdbPage() {
         const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdUtl_e_reepnFwzTDJRf_UMUosbnOM4OEJO7ZRDqQXmE0HqA/viewform';
         window.open(formURL, '_blank');
     };
-    return (
+    return ( 
         <div className="ppdb-page">
             <WebHeader />
             <WebNavbar />

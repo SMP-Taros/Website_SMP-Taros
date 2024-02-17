@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { listBerita } from '../data/data-berita';
 import WebDaftarBerita from './WebDaftarBerita';
 import WebTerbaru from './WebTerbaru';
-
+ 
 function WebDetailBerita() {
     const { id } = useParams();
     const postList = listBerita();

@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client';
 import HomePage from './pages/HomePage';
 import ProfilePage from './pages/ProfilePage';
 import InfoPendaftaranPage from './pages/InfoPendaftaranPage';
-import NewsPage from './pages/NewsPage';
+import NewsPage from './pages/NewsPage'; 
 import NewsDetailPage from './pages/NewsDetailPage';
 import StatusPendaftaranPage from './pages/StatusPendaftaranPage';
 import PengumumanPage from './pages/PengumumanPage';
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
         path: "/pengumuman",
         element: <Pengumuman />,
     },
-    {
+    { 
         path: "/berita",
         element: <NewsPage />,
     },

@@ -11,7 +11,7 @@ function PpdbPage() {
     window.open(formURL, '_blank');
   }; 
   return (
-    <div className="ppdb-page"> 
+    <div className="ppdb-page">  
       <WebBannerPpdb></WebBannerPpdb>
       <WebPpdbButton></WebPpdbButton>
       <div className='ppdb-page2'>SELAMAT DATANG</div>
@@ -36,7 +36,7 @@ function PpdbPage() {
       </div>
       <div className="ppdb-lanjut">
           <Link to='/ppdb/pendaftaran'>
-                <button className='ppdb-main-button-next'>Next</button>
+                <button className='ppdb-main-button-next'>Lanjut</button>
             </Link>
       </div>     
     </div> 

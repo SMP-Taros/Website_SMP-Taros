@@ -294,7 +294,7 @@
     color: #FFF;
     line-height: normal;
     font-style: normal;
-  }
+  } 
 
   .header-container .header-tengah .bawah {
     font-weight: 600;
@@ -384,8 +384,10 @@
   .navbar-container .navbar-dropdown {
     position: absolute;
     background-color: #F6C03C;
-    border-radius: 8px; 
-    border-color: #F7DA24;
+    border-width: 4px 0px 0px 0px; /* Atas 0px, Kanan 4px, Bawah 6px, Kiri 8px */
+    border-style: dashed none none none; /* Gaya border untuk setiap sisi */
+    border-top-color: #F7DA24;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
     border-style: solid;
     width: 115px;
   }
@@ -405,7 +407,7 @@
     
   }
   .navbar-container .navbar-dropdown .list {
-    padding: 8px 8px;
+    width: 100%;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     list-style-type: none;
     padding: 0;

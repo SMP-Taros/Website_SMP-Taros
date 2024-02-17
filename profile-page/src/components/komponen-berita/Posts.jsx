@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Jam from "./clock.svg"
 import { Link } from "react-router-dom";
-
+ 
 function Posts({ artikel, posts, loading }) {
 
   if (loading) {

@@ -13,7 +13,7 @@ function NewsPage() {
                 <div className='text-atap'>BERITA</div>
             </div>
             <WebListBerita /> 
-            <WebFooter />
+            <WebFooter /> 
         </div>
     )
 }

@@ -7,7 +7,7 @@ function BeritaPage(){
         <div className='berita-atap'>
           <div className='text-atap'>BERITA</div>
         </div>
-        <WebListBerita /> 
+        <WebListBerita />  
     </div>
   ) 
 }

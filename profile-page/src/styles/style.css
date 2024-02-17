@@ -348,6 +348,12 @@
     margin-top: 15px;
   }
 
+  .navbar-container .line-link {
+    height: 2.5px;
+    margin-left: -20px;
+    background-color: #F7DA24;
+  }
+
   .navbar-container .link {
     color: #FFF;
     text-decoration: none;
@@ -362,7 +368,7 @@
     color: #FFF;
     text-decoration: none;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
   }
 
@@ -378,15 +384,22 @@
   .navbar-container .navbar-dropdown {
     position: absolute;
     background-color: #F6C03C;
+<<<<<<< HEAD
     border-radius: 8px; 
     border-color: #F7DA24;
+=======
+    border-width: 4px 0px 0px 0px; /* Atas 0px, Kanan 4px, Bawah 6px, Kiri 8px */
+    border-style: dashed none none none; /* Gaya border untuk setiap sisi */
+    border-top-color: #F7DA24;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+>>>>>>> c37356d8cf9e0056c6d3fda70aeb47a96da00736
     border-style: solid;
     width: 115px;
   }
   .navbar-container .navbar-dropdown.active {
     opacity: 1;
     visibility: visible;
-    transform: translateY(0);
+    transform: translateY(5px);
     transition: 500ms ease;
   }
   .navbar-container .navbar-dropdown.inactive {
@@ -399,9 +412,18 @@
     
   }
   .navbar-container .navbar-dropdown .list {
+<<<<<<< HEAD
     padding: 8px 8px;
+=======
+    width: 100%;
+>>>>>>> c37356d8cf9e0056c6d3fda70aeb47a96da00736
     border-top: 1px solid rgba(0, 0, 0, 0.05);
-    margin-left: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .navbar-container .navbar-dropdown .list li {
+    text-align: center;
   }
 
   .carousel-container {
@@ -507,11 +529,18 @@
 
     /* <---> ini diatas style library swiper.js "carousel-container" <---> */
 
+  .beritaa {
+    display: flex;
+  }
+
   .berita-atap {
     height: 152px;
-    background-color: #E8E8E8;
+    background: linear-gradient(0deg, rgba(166, 166, 166, 0.745) 100%, #000000 20%), url('/image/banner.jpeg'), #000000 20% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   .berita-atap .text-atap {
@@ -525,10 +554,11 @@
   }
 
   .berita-container {
-    margin: auto;
-    width: 1283px;
+    width: 1100px;
     flex-shrink: 0;
     margin-top: 71px;
+    margin-left: 30px;
+    
   }
 
   .berita-container .berita-isi {
@@ -536,8 +566,12 @@
     list-style-type: none;
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-    column-gap: 248px;
+    column-gap: 10px;
     height: 2901px;
+  }
+
+  .berita-container .berita-list {
+    width: 516px;
   }
  
   .berita-container .gambar {
@@ -603,15 +637,89 @@
     box-shadow: #4BB67C;
   }
 
+  .berita-sidebar {
+    height: auto;
+    width: 337px;
+    margin-left: 30px;
+  }
+
+  .beritaa .search {
+    width: 200px;
+    height: 35px;
+    border: none;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-left: 5px;
+  }
+
+  .beritaa .search:focus {
+    outline: none;
+  }
+
+  .beritaa .search-box {
+    height: 40px;
+    width: 240px;
+    border-radius: 8px;
+    border: 2px solid rgba(159, 155, 155, 0.8);
+    display: flex;
+    margin-bottom: 4%;
+    margin-left: 30px;
+    margin-top: 75px;
+  }
+
+  .beritaa .search-box .btn-image {
+    border: none;
+    background-color: #FFF;
+    margin-top: -0.5px;
+    margin-left: -3.5px;
+  }
+
+  .beritaa .search-box .btn-image .image {
+    color: rgba(159, 155, 155, 0.8);
+  }
+
+  .berita-sidebar .text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+  }
+
+  .berita-sidebar .terbaru {
+    list-style-type: none;
+  }
+
+  .berita-sidebar .terbaru .text {
+    margin: 10px 0px ;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    margin-left: -5px;
+  }
+
+  .berita-sidebar .terbaru .text .specs {
+    color: #4BB67C;
+  }
+
+  .berita-sidebar .text-line {
+    height: 1px;
+    background-color: #b3b3b3;
+    margin-left: -37px;
+  }
+
   .detail-berita-container-batas {
     height: 60px;
     background-color: #D9D9D9;
   }
 
   .detail-berita-container {
-    height: 2000px;
-    width: 1000px;
-    margin-left: 15%;
+    height: auto;
+    width: 1400px;
+    margin-left: 5%;
   }
 
   .detail-berita-container .detail-berita-isi {
@@ -624,32 +732,74 @@
   }
 
   .detail-berita-container .row-kanan {
-    width: 30%;
+    width: 20%;
+    margin-left: 2.5%;
   }
 
   .detail-berita-container .judul {
     font-weight: 500;
     font-size: 35px;
     font-family: "Roboto", sans-serif;
+    text-align: center;
   }
 
   .detail-berita-container .tanggal {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 5px;
   }
 
   .detail-berita-container .text-tanggal {
-    margin-left: 10px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     font-family: "Poppins", sans-serif;
+    display: flex;
+    color: #b3b3b3;
+  }
+  .detail-berita-container .text-kategori {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Poppins", sans-serif;
+    color: #4BB67C;
   }
 
   .detail-berita-container .detail-gambar {
     margin-top: 20px;
     width: 100%;
+    height: 500px;
+  }
+
+  .daftar-berita {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    padding-right: 5%;
+    gap: 35px;
+    height: 300px;
+    margin-top: 50px;
+  }
+
+  .daftar-berita .daftar-berita-isi {
+    width: 100%;
+    height: 100%;
+  }
+  .daftar-berita .daftar-berita-isi .image {
+    width: 100%;
+    height: 60%;
+  }
+  .daftar-berita .daftar-berita-isi .title {
+    width: 100%;
+    height: 39%;
+    margin-top: 1%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
   }
 
   .detail-berita-container .text-berita {
@@ -708,6 +858,10 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
+  .bannerbtn-container .button-form:hover {
+    background-color: #575656;
+  }
+
   .ppdb-button-container {
     height: 85px;
     margin-top: 40px;
@@ -720,6 +874,16 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
+  }
+
+  .ppdb-button-container .button1:hover {
+    color: #FFF;
+  }
+  .ppdb-button-container .button2:hover {
+    color: #FFF;
+  }
+  .ppdb-button-container .button3:hover {
+    color: #FFF;
   }
 
   .ppdb-button-container .button1 {
@@ -738,7 +902,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 33px;
     font-weight: 400;
-    background-color: #4b4b4b;
+    background-color: #a0a0a0;
     color: #1A2226;
     border: none;
   }
@@ -1043,6 +1207,10 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.ppdbpage-main-container .button-form:hover {
+   background-color: #575656;
+}
+
 .ppdb-main-button-next {
   width: 151px;
   height: 65px;
@@ -1053,6 +1221,10 @@
   border: none;
   border-radius: 5px;
   margin: 0px 0px 50px 1180px;
+}
+
+.ppdb-main-button-next:hover {
+  color: #FFF;
 }
 
 .banner-ppdb-container {

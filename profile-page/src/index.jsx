@@ -9,6 +9,7 @@ import NewsPage from './pages/NewsPage';
 import NewsDetailPage from './pages/NewsDetailPage';
 import StatusPendaftaranPage from './pages/StatusPendaftaranPage';
 import PengumumanPage from './pages/PengumumanPage';
+import Pengumuman from './pages/Pengumuman';
 import ContactPage from './pages/ContactPage';
 import PpdbPage from './pages/PPDBPage';
 import InformasiSekolahPage from './pages/InformasiSekolahPage';
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
     {
         path: "/informasi-kalender",
         element: <InformasiKaldikPage />,
+    },
+    {
+        path: "/pengumuman",
+        element: <Pengumuman />,
     },
     {
         path: "/berita",

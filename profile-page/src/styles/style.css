@@ -384,15 +384,8 @@
   .navbar-container .navbar-dropdown {
     position: absolute;
     background-color: #F6C03C;
-<<<<<<< HEAD
     border-radius: 8px; 
     border-color: #F7DA24;
-=======
-    border-width: 4px 0px 0px 0px; /* Atas 0px, Kanan 4px, Bawah 6px, Kiri 8px */
-    border-style: dashed none none none; /* Gaya border untuk setiap sisi */
-    border-top-color: #F7DA24;
-    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
->>>>>>> c37356d8cf9e0056c6d3fda70aeb47a96da00736
     border-style: solid;
     width: 115px;
   }
@@ -412,11 +405,7 @@
     
   }
   .navbar-container .navbar-dropdown .list {
-<<<<<<< HEAD
     padding: 8px 8px;
-=======
-    width: 100%;
->>>>>>> c37356d8cf9e0056c6d3fda70aeb47a96da00736
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     list-style-type: none;
     padding: 0;

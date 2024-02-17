@@ -526,9 +526,12 @@
 
   .berita-atap {
     height: 152px;
-    background-color: #E8E8E8;
+    background: linear-gradient(0deg, rgba(166, 166, 166, 0.745) 100%, #000000 20%), url('/image/banner.jpeg'), #000000 20% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   .berita-atap .text-atap {
@@ -628,8 +631,45 @@
   .berita-sidebar {
     height: auto;
     width: 337px;
-    margin-top: 90px;
     margin-left: 30px;
+  }
+
+  .beritaa .search {
+    width: 200px;
+    height: 35px;
+    border: none;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-left: 5px;
+  }
+
+  .beritaa .search:focus {
+    outline: none;
+  }
+
+  .beritaa .search-box {
+    height: 40px;
+    width: 240px;
+    border-radius: 8px;
+    border: 2px solid rgba(159, 155, 155, 0.8);
+    display: flex;
+    margin-bottom: 4%;
+    margin-left: 30px;
+    margin-top: 75px;
+  }
+
+  .beritaa .search-box .btn-image {
+    border: none;
+    background-color: #FFF;
+    margin-top: -0.5px;
+    margin-left: -3.5px;
+  }
+
+  .beritaa .search-box .btn-image .image {
+    color: rgba(159, 155, 155, 0.8);
   }
 
   .berita-sidebar .text {
@@ -809,6 +849,10 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
+  .bannerbtn-container .button-form:hover {
+    background-color: #575656;
+  }
+
   .ppdb-button-container {
     height: 85px;
     margin-top: 40px;
@@ -821,6 +865,16 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
+  }
+
+  .ppdb-button-container .button1:hover {
+    color: #FFF;
+  }
+  .ppdb-button-container .button2:hover {
+    color: #FFF;
+  }
+  .ppdb-button-container .button3:hover {
+    color: #FFF;
   }
 
   .ppdb-button-container .button1 {
@@ -839,7 +893,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 33px;
     font-weight: 400;
-    background-color: #4b4b4b;
+    background-color: #a0a0a0;
     color: #1A2226;
     border: none;
   }
@@ -1144,6 +1198,10 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.ppdbpage-main-container .button-form:hover {
+   background-color: #575656;
+}
+
 .ppdb-main-button-next {
   width: 151px;
   height: 65px;
@@ -1154,6 +1212,10 @@
   border: none;
   border-radius: 5px;
   margin: 0px 0px 50px 1180px;
+}
+
+.ppdb-main-button-next:hover {
+  color: #FFF;
 }
 
 .banner-ppdb-container {

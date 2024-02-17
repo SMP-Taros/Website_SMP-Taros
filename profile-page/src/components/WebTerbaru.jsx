@@ -3,6 +3,7 @@ import React from 'react'
 function WebTerbaru({ posts }) {
     return (
         <div className='berita-sidebar'>
+            
             <div className='text'>TERBARU</div>
             <ul className='terbaru'>
                 {posts.map(post => (

@@ -1,5 +1,4 @@
 import { Row, Col,} from "react-bootstrap";
-import {useNavigate} from 'react-router-dom';
 
 import Kontak1 from "../assets/img/kontak/email.png";
 import Kontak2 from "../assets/img/kontak/ig.png";
@@ -7,7 +6,6 @@ import Kontak3 from "../assets/img/kontak/fb.png";
 import Kontak4 from "../assets/img/kontak/telp.png";
 
 const WebKontakHome = ()=>{
-    let navigate = useNavigate();
     return(
         <div className='kontak w-100 min-vh-100'>
         <Row>
@@ -44,18 +42,9 @@ const WebKontakHome = ()=>{
                 <div className="text-wrapper">
                   <a className="">Syafi'i : 0857 2538 0565 </a> <br />
                   <a href="https://api.whatsapp.com/send?phone=%2B6289676000390&data=ARDm88yjMcwJNnAmAEFwiPVb0oIzRYom_boKhqjaYPALCthCWV65TFN-ZsfqNK3tG_a-MaaRlnxJWUh0c4TFaVhGkAENmFQzwe1nFEHwsu2I_nloeYpNVBIrDdrn5YjyPACVo3N2vIk1p1TkNRsH1MM9fQ&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR1269zki1WTP3n87UgF8pbUFOlTbc2dLnA3pwYdS5z0ADdCfLyEaOukww8" >Kak TaroS : 0896 76000 390</a>
-                </div>
+                </div> 
               </Col>
             </Row>
-            <Row className="kontak-btn">
-                <div className="kontak-bt">
-                  <button
-                    className={`btn btn-success btn-lg rounded-2 mt-5`} onClick={() => navigate("/contact")}>
-                    Lihat Selengkapnya
-                  </button>
-                </div>
-            </Row>
-      
       </div>
     )
 }

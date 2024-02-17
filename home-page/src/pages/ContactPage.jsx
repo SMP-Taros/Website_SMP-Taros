@@ -4,7 +4,7 @@ import WebKontak from "../components/WebKontak";
 
 function ContactPage(){
   return (
-    <div className="contact-page">
+    <div className="contact-page"> 
       <WebBannerKontak></WebBannerKontak>
       <WebKontak></WebKontak> 
     </div>

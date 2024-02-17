@@ -9,7 +9,7 @@ function WebListBerita() {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(8);
   
-  useEffect(() => { 
+  useEffect(() => {  
     const fetchPosts = async () => {
       setLoading(true);
       setPosts(listBerita);
@@ -18,7 +18,7 @@ function WebListBerita() {
 
     fetchPosts();
   }, []);
-
+ 
   // Get current posts
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;

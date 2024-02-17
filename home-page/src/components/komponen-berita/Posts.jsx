@@ -13,7 +13,7 @@ function Posts({ posts, loading }) {
         <li key={post.id} className='berita-list'>
           <img src={post.image} className='gambar' />
           <div className='title'>{post.title}</div>
-          <div className='date'>
+          <div className='date'> 
             <img src={Jam} className='date-clock' />
             <div className='date-text'>{post.date}</div>
           </div>

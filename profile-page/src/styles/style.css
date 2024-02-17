@@ -378,7 +378,7 @@
   .navbar-container .navbar-dropdown {
     position: absolute;
     background-color: #F6C03C;
-    border-radius: 8px;
+    border-radius: 8px; 
     border-color: #F7DA24;
     border-style: solid;
     width: 115px;
@@ -399,7 +399,7 @@
     
   }
   .navbar-container .navbar-dropdown .list {
-    padding: 9px  0;
+    padding: 8px 8px;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     margin-left: 20px;
   }
@@ -1604,6 +1604,7 @@ align-items: center;
 }
 
 .ekskul-container .text > *{
+
   transform:translateY(25px);
   transition: transform 0.6s;
 }

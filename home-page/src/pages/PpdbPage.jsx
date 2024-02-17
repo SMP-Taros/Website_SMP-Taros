@@ -17,6 +17,7 @@ function PpdbPage() {
       <div className='ppdb-page2'>SELAMAT DATANG</div>
       <div className='ppdbpage-main-container'>
             <div className='ppdbpage-main-isi'>
+              <div className='orange-line' />
               <div className='text'>
                     Selamat Datang di Penerimaan Peserta Didik Baru <br/>
                     SMP IT Taqiyya Rosyida Kartasura<br/>

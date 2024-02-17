@@ -21,11 +21,11 @@ import PengumumanPage from "./pages/PengumumanPage";
 function App() { // Route path adalah konfigurasi untuk ke masing2 halaman
   return (<div>
     <HeaderComponents />
-    <NavbarComponents />
+    <NavbarComponents /> 
     <Routes> 
       <Route path="/" Component={HomePage} />
       <Route path="/profil" Component={ProfilPage} />
-      <Route path="/informasi" Component={InformasiPage} />
+      <Route path="/informasi-sekolah" Component={InformasiPage} />
       <Route path="/berita" Component={BeritaPage} />
       <Route path="/ppdb" Component={PpdbPage} />
       <Route path="/ppdb/pendaftaran" Component={PpdbPendaftaran} />

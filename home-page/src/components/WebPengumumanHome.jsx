@@ -6,7 +6,7 @@ const WebPengumumanHome = ()=>{
     return (
         <div className="pengumuman w-100 min-vh-100">
         <Container>
-          <Row>
+          <Row> 
             <Col>
             <h1 className='text-center fw-bold'>PENGUMUMAN</h1>
             </Col>
@@ -32,60 +32,11 @@ const WebPengumumanHome = ()=>{
                   <CardTitle className="text-center mt-4"><h4>NEXT EVENT</h4></CardTitle>
                       <CardText className="text-center">
                       </CardText>
-                  <Card
-                    style={{
-                      width: "24rem",
-                      height: "20rem",
-                      borderRadius: "5px",
-                      background: "#D9D9D9",
-                    }}
-                  >
-                    <CardBody>
-                    </CardBody>
-                  </Card>
-                  <CardTitle className="text-center mt-4"><h4>NEXT EVENT(2)</h4></CardTitle>
-                      <CardText className="text-center">
-                      </CardText>
                 </Col> 
               </Row>
 
-              {/* <Row className="event2">
-                <Col>
-                  <Card
-                    style={{
-                      width: "24rem",
-                      height: "20rem",
-                      borderRadius: "5px",
-                      background: "#D9D9D9",
-                    }}
-                  >
-                    <CardBody>
-                    </CardBody>
-                  </Card>
-                  <CardTitle className="text-center mt-4"><h4>NEXT EVENT(2)</h4></CardTitle>
-                      <CardText className="text-center">
-                      </CardText>
-                </Col>
-              </Row> */}
 
-              {/* <Row className="event3">
-                <Col>
-                  <Card className="center"
-                    style={{
-                      width: "24rem",
-                      height: "20rem",
-                      borderRadius: "5px",
-                      background: "#D9D9D9",
-                    }}
-                  >
-                    <CardBody>
-                    </CardBody>
-                  </Card>
-                  <CardTitle className="text-center mt-4"><h4>OPEN RECRUITMENT GURU & KARYAWAN</h4></CardTitle>
-                      <CardText className="text-center">
-                      </CardText>
-                </Col>
-              </Row> */}
+
             </Container>
           </div> 
         </div>

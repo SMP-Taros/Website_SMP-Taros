@@ -15,7 +15,7 @@ function WebSarPras(){
                         </div>
                 </div>
             </Row>
-            <Row>
+            <Row> 
                 <div className="text1">
                 Kami berusaha menciptakan lingkungan yang kondusif untuk mendukung perkembangan holistik<br/>
                 setiap siswa. Berikut adalah beberapa  fasilitas unggulan yang kami tawarkan untuk menciptakan<br/>

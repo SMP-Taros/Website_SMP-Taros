@@ -11,7 +11,7 @@ function HomePage(){
     <div className="homepage">
       <HeaderHome></HeaderHome> 
       <WebProfilHome></WebProfilHome>
-      <WebBeritaHome></WebBeritaHome>
+      <WebBeritaHome></WebBeritaHome> 
       <WebPpdbHome></WebPpdbHome>
       <WebListPengumumanHome></WebListPengumumanHome>
       <WebTestiHome></WebTestiHome>

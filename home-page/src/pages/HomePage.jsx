@@ -6,8 +6,8 @@ import WebPpdbHome from "../components/WebPpdbHome";
 import WebListPengumumanHome from "../components/WebListPengumumanHome";
 import WebTestiHome from "../components/WebTestiHome";
  
-function HomePage(){
-  return(  
+function HomePage(){ 
+  return(   
     <div className="homepage">
       <HeaderHome></HeaderHome> 
       <WebProfilHome></WebProfilHome>

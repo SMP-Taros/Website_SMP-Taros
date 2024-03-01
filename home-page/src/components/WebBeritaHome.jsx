@@ -2,10 +2,11 @@ import { Container, Row, Col, } from "react-bootstrap"
 import { beritaSekolah, } from "../data/index";
 import { useNavigate } from 'react-router-dom';
 
-const WebBeritaHome = () => {
+const WebBeritaHome = () => { 
   let navigate = useNavigate();
   return (
     <div className='berita w-100 min-vh-100'>
+      <Container>
       <Row>
         <Col>
           <h1 className='text-center fw-bold'>BERITA TERBARU</h1>
@@ -31,6 +32,7 @@ const WebBeritaHome = () => {
           </button>
         </div>
       </Row>
+      </Container>
     </div>
   )
 }

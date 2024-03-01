@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import Posts from './komponen-berita/Posts';
+import Posts from './komponen-berita/Posts'; 
 import { listPengumuman } from '../data/data-pengumuman';
 import { useNavigate } from 'react-router-dom';
  

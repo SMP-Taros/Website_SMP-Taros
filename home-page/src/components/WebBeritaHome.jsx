@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const WebBeritaHome = () => {
   let navigate = useNavigate();
   return (
-    <div className='berita w-100 min-vh-100'>
+    <div className='berita'>
       <Row>
         <Col>
           <h1 className='text-center fw-bold'>BERITA TERBARU</h1>

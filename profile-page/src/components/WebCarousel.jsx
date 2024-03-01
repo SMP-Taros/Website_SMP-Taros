@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import Contoh from "/image/contoh.jpg";
+import Contoh from "/image/taros.jpeg";
 
 function WebCarousel() {
     return (
@@ -32,10 +32,10 @@ function WebCarousel() {
                                 "
                             </div>
                             <div className="text-author">
-                                nex ganteng tzyy
+                                Sahabat Jannah
                             </div>
                             <div className="text-author">
-                                proplayer ep ep
+                                Islami
                             </div>
                         </div>
                     </div>
@@ -50,10 +50,10 @@ function WebCarousel() {
                                 "
                             </div>
                             <div className="text-author">
-                                Mamet ganteng tzyy
+                                Sahabat Jannah
                             </div>
                             <div className="text-author">
-                                proplayer ep ep
+                                Islami
                             </div>
                         </div>
                     </div>
@@ -68,10 +68,10 @@ function WebCarousel() {
                                 "
                             </div>
                             <div className="text-author">
-                                Mamet ganteng tzyy
+                                Sahabat Jannah
                             </div>
                             <div className="text-author">
-                                proplayer ep ep
+                                Islami
                             </div>
                         </div>
                     </div>

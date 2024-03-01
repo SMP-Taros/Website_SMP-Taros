@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 
-import Contoh from '/image/contoh.jpg'
+import Contoh from '/image/taros.jpeg'
 
 function WebTestiHome() {
     return (

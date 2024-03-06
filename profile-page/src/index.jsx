@@ -15,7 +15,9 @@ import PpdbPage from './pages/PPDBPage';
 import InformasiSekolahPage from './pages/InformasiSekolahPage';
 import InformasiKaldikPage from './pages/InformasiKaldikPage';
 
-import './styles/style.css';
+// import './styles/style.css';
+import './styles/second-style.css'
+
 import {
     createBrowserRouter,
     RouterProvider,

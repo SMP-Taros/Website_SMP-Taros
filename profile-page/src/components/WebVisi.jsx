@@ -12,7 +12,6 @@ function WebVisi() {
                 </div>
             </div>
         </div>
-
     )
 }
 

@@ -1,11 +1,12 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Kotak1 from "../assets/img/informasi/rectangle51.png";
 
 function WebKurikulum(){
     return (
         <div className="kurikulum-kompetensi">   
             <div className="kurikulum-kompetensi-container">
+                <Container>
                 <Row className="penjelasan-kompetensi">
                     <div className="text">
                     Kami menghadirkan kombinasi kurikulum Merdeka dan kekhasan kurikulum Jaringan Sekolah Islam Terpadu (JSIT) di dalam  <br/>
@@ -80,6 +81,7 @@ function WebKurikulum(){
                         </div>
                     </div>
                 </Row>
+                </Container>
             </div>
         </div>
     )

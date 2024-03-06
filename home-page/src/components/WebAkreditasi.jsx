@@ -1,11 +1,12 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import {useNavigate} from 'react-router-dom';
  
 function WebAkreditasi(){
     let navigate = useNavigate();
     return(
         <div className="akreditasi-container">
+        <Container>
             <Row>
             <Col>
                 <div className="text">
@@ -23,7 +24,8 @@ function WebAkreditasi(){
               <button className='btn btn-success btn-lg rounded-2' onClick={() => navigate("/ppdb")}>Daftar PPDB</button>
             </div>
             </Col>
-            </Row>
+            </Row>  
+        </Container>
         </div>
     )
 }

@@ -8,7 +8,7 @@ import WebSarPras from "../components/WebSarPras";
 
 function InformasiPage(){
   return (
-    <div className="info-kurkum"> 
+    <div className="info-kurkum">  
       <WebBannerKurikulum></WebBannerKurikulum>   
       <WebKurikulum></WebKurikulum>
       <WebPrestasi></WebPrestasi>

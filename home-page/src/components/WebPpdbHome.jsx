@@ -1,10 +1,11 @@
-import { Row, Col,} from "react-bootstrap"
+import { Container, Row, Col,} from "react-bootstrap"
 import {useNavigate} from 'react-router-dom';
 
 const WebPpdbHome = ()=>{
     let navigate = useNavigate();
     return (
     <div className='ppdb-background'>
+      <Container>
         <Row>
           <Col>
             <div className='ppdb-container'>
@@ -18,6 +19,7 @@ const WebPpdbHome = ()=>{
             </div>
           </Col>
         </Row>
+      </Container>
     </div>
     )
 }

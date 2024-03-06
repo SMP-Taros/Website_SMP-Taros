@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -12,6 +12,7 @@ import Contoh from '../assets/img/testi/contoh.jpg';
 function WebPrestasi() {
     return (
         <div className="prestasi-container">
+            <Container>
             <Row>
                 <div className="judul">
                     <div className="text-wrapper">
@@ -81,7 +82,7 @@ function WebPrestasi() {
                                         <button className="btn btn-warning">Selengkapnya</button>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='carousel-prestasi-isi'>
@@ -102,6 +103,7 @@ function WebPrestasi() {
                     </Swiper>
                 </div>
             </Row>
+            </Container>
         </div>
     )
 }

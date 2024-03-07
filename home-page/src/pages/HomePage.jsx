@@ -7,7 +7,7 @@ import WebListPengumumanHome from "../components/WebListPengumumanHome";
 import WebTestiHome from "../components/WebTestiHome";
  
 function HomePage(){ 
-  return(   
+  return(    
     <div className="homepage">
       <HeaderHome></HeaderHome> 
       <WebProfilHome></WebProfilHome>

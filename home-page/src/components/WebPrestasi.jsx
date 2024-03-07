@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import 'swiper/css/scrollbar'; 
 import Contoh from '../assets/img/testi/contoh.jpg';
 
 function WebPrestasi() {

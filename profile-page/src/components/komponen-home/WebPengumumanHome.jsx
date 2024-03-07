@@ -1,92 +1,60 @@
-import React from 'react'
-import { Container, Row, Col, Card, CardBody, CardTitle, CardText, } from "react-bootstrap";
+import React, { useState, useEffect } from 'react';
+import { Row, Col, Container } from 'react-bootstrap';
+import Posts from '../komponen-berita/Posts';
+import { listBerita } from '../../data/data-berita';
 import { useNavigate } from 'react-router-dom';
 
-function WebPengumumanHome() {
+function WebListBerita() {
+    const [posts, setPosts] = useState([]);
+    const [loading, setLoading] = useState(false);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [postsPerPage] = useState(4);
+
+    useEffect(() => {
+        const fetchPosts = async () => {
+            setLoading(true);
+            setPosts(listBerita);
+            setLoading(false);
+        };
+
+        fetchPosts();
+    }, []);
+
+    // Get current posts
+    const indexOfLastPost = currentPage * postsPerPage;
+    const indexOfFirstPost = indexOfLastPost - postsPerPage;
+    const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+
+    // Change page
+    //   const paginate = pageNumber => setCurrentPage(pageNumber);
+
     let navigate = useNavigate();
     return (
-        <div className="pengumuman w-100 min-vh-100">
+        <div className='pengumuman-container'>
+            <div className="pengumuman-home w-100">
+                <Container>
+                    <Row>
+                        <Col>
+                            <h1 className='text-center fw-bold'>PENGUMUMAN</h1>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+            <div className='tengahin'>
+                <Posts posts={currentPosts} loading={loading} />
+            </div>
             <Container>
-                <Row>
-                    <Col>
-                        <h1 className='text-center fw-bold'>PENGUMUMAN</h1>
-                    </Col>
+                <Row className="announ-btn">
+                    <div className="announ-bt">
+                        <button
+                            className={`btn btn-success btn-lg rounded-2 mt-5`} onClick={() => navigate("/pengumuman")}>
+                            Lihat Selengkapnya
+                        </button>
+                    </div>
                 </Row>
             </Container>
-
-            <div className='pengumuman-card'>
-                <div className='pengumuman-container'>
-                    <Container>
-                        <Row className="event1">
-                            <Col>
-                                <Card
-                                    style={{
-                                        width: "24rem",
-                                        height: "20rem",
-                                        borderRadius: "5px",
-                                        background: "#D9D9D9",
-                                    }}
-                                >
-                                    <CardBody>
-                                    </CardBody>
-                                </Card>
-                                <CardTitle className="text-center mt-4"><h4>NEXT EVENT</h4></CardTitle>
-                                <CardText className="text-center">
-                                </CardText>
-                            </Col>
-                        </Row>
-
-                        <Row className="event2">
-                            <Col>
-                                <Card
-                                    style={{
-                                        width: "24rem",
-                                        height: "20rem",
-                                        borderRadius: "5px",
-                                        background: "#D9D9D9",
-                                    }}
-                                >
-                                    <CardBody>
-                                    </CardBody>
-                                </Card>
-                                <CardTitle className="text-center mt-4"><h4>NEXT EVENT(2)</h4></CardTitle>
-                                <CardText className="text-center">
-                                </CardText>
-                            </Col>
-                        </Row>
-
-                        <Row className="event3">
-                            <Col>
-                                <Card className="center"
-                                    style={{
-                                        width: "24rem",
-                                        height: "20rem",
-                                        borderRadius: "5px",
-                                        background: "#D9D9D9",
-                                    }}
-                                >
-                                    <CardBody>
-                                    </CardBody>
-                                </Card>
-                                <CardTitle className="text-center mt-4"><h4>OPEN RECRUITMENT GURU & KARYAWAN</h4></CardTitle>
-                                <CardText className="text-center">
-                                </CardText>
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
-            </div>
-
-            <Row className="event-btn">
-                <div className="event-bt">
-                    <button
-                        className={`btn btn-success btn-lg rounded-2 mt-5`} onClick={() => navigate("/pengumuman")}>
-                        Lihat Selengkapnya
-                    </button>
-                </div>
-            </Row>
         </div>
     )
 }
 
-export default WebPengumumanHome
+export default WebListBerita

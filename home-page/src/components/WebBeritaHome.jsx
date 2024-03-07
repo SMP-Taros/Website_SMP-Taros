@@ -16,9 +16,9 @@ const WebBeritaHome = () => {
       <Row>
         {beritaSekolah.map((berita) => {
           return <Col key={berita.id}>
-            <img src={berita.image} alt="berita1" className='w-100 mb-5 rounded-2' />
+            <img src={berita.image} alt="berita1" className='mb-5 w-100 rounded-2' />
             <h5>{berita.title}</h5>
-            <div className='clock mb-4'>
+            <div className='mb-4 clock'>
               <i className={berita.clock}></i> {berita.date}
             </div>
             <p>{berita.p}</p>

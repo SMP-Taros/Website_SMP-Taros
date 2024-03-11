@@ -4,7 +4,7 @@ import HeaderComponents from "./components/HeaderComponents";
 import NavbarComponents from "./components/NavbarComponents";
 import FooterComponents from "./components/FooterComponents";
  
-
+ 
 import HomePage from "./pages/HomePage";
 import ProfilPage from "./pages/ProfilPage";
 import InformasiPage from "./pages/InformasiPage";

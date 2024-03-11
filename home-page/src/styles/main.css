@@ -12,10 +12,11 @@
     --navbar-color: #ffffff;
     --navbar-color-text: #000000;
   }
-
+ 
 /* AWAL STYLE HEADER */
 .header-container {
     background-color: #F7DA24;
+    width: 100%;
     height: 120px;
     display: flex;
     justify-content: center;
@@ -82,6 +83,25 @@
     line-height: normal;
     font-style: normal;
   }
+
+  /* Media Query HeaderComponents */
+  @media screen and (max-width: 640px) {
+    .header-container {
+        width: 90%;
+    }
+    .header-container .atas {
+        font-size: 30px;
+    }
+    .header-container .bawah {
+        font-size: 18px;
+    }
+    .header-container .foto-aset {
+        width: 60px;
+        height: 60px;
+    }
+  }
+  /* Media Query HeaderComponents */
+
 /* AKHIR Style HEADER */
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "website-taross",
+  "name": "profile-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,8 +14,10 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
     "react-pdf": "^7.7.1",
-    "react-router-dom": "^6.21.1",
+    "react-router-dom": "^6.4.5",
+    "react-slick": "^0.30.1",
     "swiper": "^11.0.7"
   },
   "devDependencies": {
